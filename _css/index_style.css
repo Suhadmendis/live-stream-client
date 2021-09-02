@@ -1,0 +1,57 @@
+
+body{
+    background-image: url('../_img/stage1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
+
+#video-section{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.side-box{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.video-box{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    height: 800px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+
+.branding-logo-area{
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+}
+
+#branding_2_1{
+    /* background-color: rgb(255, 142, 142); */
+}
+
+#branding_2_2{
+    /* background-color: rgb(255, 91, 91); */
+}
+
+#branding_2_3{
+    /* background-color: rgb(255, 44, 44); */
+}
+
+#branding_2_4{
+    /* background-color: red; */
+}
+
+.branding-logo-images{
+    width: 100%;
+}
