@@ -1,4 +1,3 @@
-
 body{
     background-image: url('../_img/stage1.jpg');
     background-repeat: no-repeat;
@@ -7,51 +6,231 @@ body{
     background-attachment: fixed;
 }
 
-
-#video-section{
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.side-box{
-    width: 100%;
-    height: 800px;
-    background-color: white;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-}
-
-.video-box{
-    margin-left: 50px;
-    margin-right: 50px;
+@media (max-width: 1980px) {
+    #company-name{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: white;
+    }
     
-    height: 800px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    #video-section{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .side-box{
+        width: 100%;
+        height: 500px;
+        background-color: white;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+    
+    .video-box{
+        /* margin-left: 50px;
+        margin-right: 50px; */
+        
+        height: 500px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+    
+    #video-iframe{
+        width: 100%;
+        height: 500px;
+    }
+    
+    .branding-logo-area{
+        width: 100%;
+        height: 125px;
+        padding: 30px;
+    }
+    
+    .branding-logo-images{
+        width: 100%;
+    }
+    
+    /* #branding_1_1{}
+    
+    #branding_1_2{}
+    
+    #branding_1_3{}
+    
+    #branding_1_4{}
+    
+    
+    
+    #branding_2_1{}
+    
+    #branding_2_2{}
+    
+    #branding_2_3{}
+    
+    #branding_2_4{}
+    
+    #stage-platform{
+        
+    } */
+
+    .staircase-images{
+        margin-left: -93px;
+        width: 175%;
+    }
 }
 
 
 
-.branding-logo-area{
-    width: 100%;
-    height: 200px;
-    padding: 50px;
+@media (max-width: 1400px) {
+    
+    #company-name{
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: white;
+    }
+    
+    #video-section{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .side-box{
+        width: 100%;
+        height: 360px;
+        background-color: white;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+    
+    .video-box{
+        /* margin-left: 50px;
+        margin-right: 50px; */
+        
+        height: 360px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+    
+    #video-iframe{
+        width: 100%;
+        height: 360px;
+    }
+    
+    .branding-logo-area{
+        width: 100%;
+        height: 90px;
+        padding: 30px;
+    }
+    
+    .branding-logo-images{
+        width: 100%;
+    }
+    
+    /* #branding_1_1{}
+    
+    #branding_1_2{}
+    
+    #branding_1_3{}
+    
+    #branding_1_4{}
+    
+    
+    
+    #branding_2_1{}
+    
+    #branding_2_2{}
+    
+    #branding_2_3{}
+    
+    #branding_2_4{}
+    
+    #stage-platform{
+        
+    } */
+
+    .staircase-images{
+        margin-left: -63px;
+        width: 175%;
+    }
+
+    
 }
 
-#branding_2_1{
-    /* background-color: rgb(255, 142, 142); */
+@media (max-width: 767px) {
+    #company-name{
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: white;
+    }
+    
+    #video-section{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .side-box{
+        width: 100%;
+        height: 360px;
+        background-color: white;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+        display: none;
+    }
+    
+    .video-box{
+        /* margin-left: 50px;
+        margin-right: 50px; */
+        
+        height: 360px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+        
+    }
+    
+    #video-iframe{
+        width: 100%;
+        height: 90vh;
+    }
+    
+    .branding-logo-area{
+        width: 100%;
+        height: 90px;
+        padding: 30px;
+    }
+    
+    .branding-logo-images{
+        width: 100%;
+    }
+    
+    /* #branding_1_1{}
+    
+    #branding_1_2{}
+    
+    #branding_1_3{}
+    
+    #branding_1_4{}
+    
+    
+    
+    #branding_2_1{}
+    
+    #branding_2_2{}
+    
+    #branding_2_3{}
+    
+    #branding_2_4{} */
+    
+
+    #stage-platform{
+        display: none;
+    }
+
+    .staircase-images{
+        margin-left: -63px;
+        width: 175%;
+    }
+
+    
 }
 
-#branding_2_2{
-    /* background-color: rgb(255, 91, 91); */
-}
 
-#branding_2_3{
-    /* background-color: rgb(255, 44, 44); */
-}
 
-#branding_2_4{
-    /* background-color: red; */
-}
 
-.branding-logo-images{
-    width: 100%;
-}
