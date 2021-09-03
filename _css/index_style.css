@@ -1,5 +1,5 @@
 body{
-    background-image: url('../_img/stage1.jpg');
+    background-image: url('../_img/staircase/tallees001/3D\ Render\ image1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -75,6 +75,10 @@ body{
         margin-left: -93px;
         width: 175%;
     }
+    .stage-images{
+        margin-left: -20px;
+        width: 102.5%;
+    }
 }
 
 
@@ -149,7 +153,10 @@ body{
         margin-left: -63px;
         width: 175%;
     }
-
+    .stage-images{
+        margin-left: -20px;
+        width: 102.5%;
+    }
     
 }
 
