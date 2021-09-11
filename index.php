@@ -6,12 +6,11 @@ if (isset($_COOKIE[$cookie_name])) {
     $mo = chk_cookie($_COOKIE[$cookie_name]);
 
     if ($mo == "ok") {
-        header('Location: ' . "auth.php");
-        exit();
-    }else{
-        header('Location: ' . "auth.php");
-        exit();
+        
     }
+}else{
+    header('Location: ' . "auth.php");
+    exit();
 }
 ?> 
 <!DOCTYPE html>
