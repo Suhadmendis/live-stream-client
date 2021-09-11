@@ -1,3 +1,16 @@
+<?php
+include './CheckCookie.php';
+$cookie_name = "user";
+if (isset($_COOKIE[$cookie_name])) {
+
+    $mo = chk_cookie($_COOKIE[$cookie_name]);
+
+    if ($mo == "ok") {
+        header('Location: ' . "home.php");
+        exit();
+    }
+}
+?> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
