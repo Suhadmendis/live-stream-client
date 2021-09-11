@@ -1,4 +1,4 @@
 <?php
 $cookie_name = "user";
-print_rss($_COOKIE);
+print_r($_COOKIE);
 ?>
