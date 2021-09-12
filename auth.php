@@ -1,93 +1,103 @@
-<?php
-include './CheckCookie.php';
-$cookie_name = "user";
-if (isset($_COOKIE[$cookie_name])) {
-
-    $mo = chk_cookie($_COOKIE[$cookie_name]);
-
-    if ($mo == "ok") {
-        header('Location: ' . "index.php");
-        exit();
-    }
-}
-?> 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Login Page</title>
-        <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-        <!-- Ionicons -->
-        <link  href="css/login.css" rel="stylesheet">    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-        <link rel="stylesheet" href="css/ionicons/css/ionicons.min.css">
-        <link rel="icon" type="image/png" sizes="16x16" href="andpic.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="_css/login_style.css">
+    <script src="js/user.js"></script>
 
-        <script src="js/vuepkg.js" type="text/javascript"></script>
-        <script src="js/user.js"></script>
-        
-        <style>
-            
-            body{
-                background-color: #3f484f;
-            }
-            #login-form{
-                background-color: #e7535f;
-                border: 0px;
-            }
-            #topic{
-                color: white;
-            }
-            #lab{
-                color: white;
-            }
-            #txterror{
-                color: white;
-            }
-        </style>
-        
-    </head>
-    <body>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="offset-md-4 col-md-4">
+                <div id="login-form-box">
+                    <h2 id="login-head">
+                        Dawning of a 
+                    </h2>
+                    <p id="login-des">
+                        New Era Of Novel Therapy
+                    </p>
+                    <input type="text" id="txtUserName" class="login-input" placeholder="User Name">
+                    <input type="password" id="txtPassword" class="login-input" placeholder="Password">
 
-
-   
-
-        <div class="container">
-            <div id="login-form" class="form-signin form-group mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-                <div>
-                    <!--<img style="align-content: center" class="img-responsive" src="img/Mas_Holdings_Logo.png">-->
-                    <div class="form-group">
-                        <h1 id="topic"><center>AMT TRANSPORT SERVICE</center></h1>
-                    </div>
+                    <button id="login-button">
+                        Login
+                    </button>
                 </div>
-                <!--<h3><center>MAS HOLDINGS</center></h3>-->
-                <div class="form-group"></div>
-
-                <strong id="lab">Username:</strong>
-
-                <input class="form-control"  name="UserName" type="text" id="txtUserName" onkeypress="keyset('txtPassword', event)"  />
-
-
-
-                <strong id="lab">Password:</strong>
-
-                <input class="form-control" name="Password" type="password" id="txtPassword" onkeypress="keyset('lbtn', event)"/>
-                <div id="txterror" class="login_error">
-
-                </div>
-
-
-                <button class="btn btn-primary" id="lbtn"  name="lbtn" onclick="IsValiedData();">Sign in</button>
-
             </div>
+
         </div>
 
-        
-    </body>    
-</html>     
+        <br><br>
 
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="display-box">
+                    <p class="display-head">SAFETY PROFILE OF SGLT2 INHIBITORS</p>
+                    <div class="display-image-area">
+                        <img src="_img/login/maxresdefault.jpeg" alt="" class="display-image">
+                    </div>
+                    <div class="display-info">
+                        <p class="display-name">Dr. Chaminda Garusinghe</p>
+                        <p class="display-des">
+                            President of Sri Lanka College of Endocrinologists <br>
+                            MBBS, MD (UOP), MRCP (UK) <br>
+                            MRCP Diabetes & Endocrinology (UK) <br> 
+                            Consultant Endocrinologist <br>
+                            Colombo South Teaching Hospital <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="display-box">
+                    <p class="display-head">SAFETY PROFILE OF SGLT2 INHIBITORS</p>
+                    <div class="display-image-area">
+                        <img src="_img/login/maxresdefault.jpeg" alt="" class="display-image">
+                    </div>
+                    <div class="display-info">
+                        <p class="display-name">Dr. Chaminda Garusinghe</p>
+                        <p class="display-des">
+                            President of Sri Lanka College of Endocrinologists <br>
+                            MBBS, MD (UOP), MRCP (UK) <br>
+                            MRCP Diabetes & Endocrinology (UK) <br> 
+                            Consultant Endocrinologist <br>
+                            Colombo South Teaching Hospital <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="display-box">
+                    <p class="display-head">SAFETY PROFILE OF SGLT2 INHIBITORS</p>
+                    <div class="display-image-area">
+                        <img src="_img/login/maxresdefault.jpeg" alt="" class="display-image">
+                    </div>
+                    <div class="display-info">
+                        <p class="display-name">Dr. Chaminda Garusinghe</p>
+                        <p class="display-des">
+                            President of Sri Lanka College of Endocrinologists <br>
+                            MBBS, MD (UOP), MRCP (UK) <br>
+                            MRCP Diabetes & Endocrinology (UK) <br> 
+                            Consultant Endocrinologist <br>
+                            Colombo South Teaching Hospital <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <br>
+    <br>
 
 <script>
     var elem = document.getElementById("txtPassword");
@@ -101,5 +111,5 @@ if (isset($_COOKIE[$cookie_name])) {
 </script>
 
 
-<script src="js/jquery-2.1.0.js"></script>
-<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
