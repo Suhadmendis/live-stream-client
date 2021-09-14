@@ -24,7 +24,7 @@ function GetXmlHttpObject()
 
 function IsValiedData()
 {
-    alert("fdssf");
+    
     if (document.getElementById('txtUserName').value == "")
     {     
         document.getElementById("txtUserName").focus();
