@@ -10,14 +10,17 @@ body{
     margin-top: 150px;
 }
 
+.header-text{
+    font-size: 60px;
+    color: white;
+
+}
+
 .text-hightlight{
     color: #b1ba1f;
 }
 
-.header-text{
-    color: white;
-    
-}
+
 
 #login-form-box{
     margin-top: 150px;

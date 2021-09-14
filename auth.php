@@ -15,11 +15,17 @@
     
     <div class="container">
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-5">
                 <div id="heading-box">
                     <h1 class="header-text text-hightlight">Webinar</h1>
                     <h1 class="header-text">Management of Diabetes in COVID 19</h1>
                 </div>
+                <div id="image-box">
+                    <img src="_img.login/Untitled-1.png" alt="" id="image-dr">
+                </div>
+            </div>
+            <div class="col-md-4">
+                
             </div>
             <div class="col-md-3">
                 <div id="login-form-box">
