@@ -23,20 +23,12 @@ if ($Command == "CheckUsers") {
             $result = $conn->query($sql);
 
             $action = "ok";
+            
+            
             $cookie_name = "user";
-            $cookie_value = $UserName;
-            //setcookie($cookie_name, $cookie_value, time() + (43200)); // 86400 = 1 day
+            $cookie_value = "John Doe";
+            setcookie('tallleesstream', $cookie_value, time() + (86400 * 30), "/");
         
-            $token = substr(hash('sha512', mt_rand() . microtime()), 0, 50);
-            $extime = time() + 43200;
-        
-        
-            $domain = $_SERVER['HTTP_HOST'];
-        
-        // set cookie
-        
-            setcookie('user', $cookie_value, $extime, "/", $domain);
-       
 
         $conn->commit();
 

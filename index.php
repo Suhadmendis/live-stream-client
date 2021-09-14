@@ -1,16 +1,16 @@
 <?php
 include './CheckCookie.php';
-$cookie_name = "user";
+$cookie_name = "tallleesstream";
 if (isset($_COOKIE[$cookie_name])) {
 
-    $mo = chk_cookie($_COOKIE[$cookie_name]);
+    // $mo = chk_cookie($_COOKIE[$cookie_name]);
 
-    if ($mo == "ok") {
+    // if ($mo == "ok") {
         
-    }
+    // }
 }else{
-    // header('Location: ' . "auth.php");
-    // exit();
+    header('Location: ' . "auth.php");
+    exit();
 }
 ?> 
 <!DOCTYPE html>
