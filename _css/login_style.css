@@ -1,45 +1,73 @@
 body{
-    background-image: url('../_img/login/JjEKYm.webp');
+    background-image: url('../_img/login/Backdrop\ Screen\ 1920\ x\ 1080-01.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
     background-attachment: fixed;
 }
 
+#heading-box{
+    margin-top: 150px;
+}
+
+.text-hightlight{
+    color: #b1ba1f;
+}
+
+.header-text{
+    color: white;
+    
+}
 
 #login-form-box{
-    margin-top: 50px;
-    padding: 30px;
+    margin-top: 150px;
+    padding: 0px;
     width: 100%;
-    background-color: rgba(48, 48, 48, 0.8);
-    border-radius: 5px;
-    /* opacity: 0.3; */
+    background-color: white;
+    border-radius: 50px 0px 50px 0px;
 }
 
-#login-head{
-    font-size: 40px;
-    color: white;
+#login-upper-stripe{
+    width: 100%;
+    height: 50px;
+    background-color: #b1ba1f;
+    border-radius: 50px 0px 0px 0px;
 }
-#login-des{
-    color: white;
+
+#login-bottom{
+    padding: 30px;
+    width: 100%;
+    
 }
+
+.input-label{
+    margin: 0px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #737373;
+}
+
+
 .login-input{
     width: 100%;
     height: 35px;
     padding-left: 10px;
-    background-color: rgba(54, 54, 54, 0.9);
+    background-color: #dce7a1;
     color: white;
     margin-top: 10px;
     border: none;
-    border-radius: 3px;
+    border-radius: 30px;
 
     outline: none;
 }
 
-#login-button{
-    width: 100%;
+#info-button{
+    width: 80%;
     margin-top: 20px;
-    background-color: #4851cf;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #3964c2;
     border: none;
     text-transform: uppercase;
     color: white;
@@ -48,7 +76,8 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 3px;
+    font-weight: 600;
+    border-radius: 20px;
 }
 
 .display-box{

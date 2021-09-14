@@ -15,86 +15,34 @@
     
     <div class="container">
         <div class="row">
-            <div class="offset-md-4 col-md-4">
+            <div class="col-md-9">
+                <div id="heading-box">
+                    <h1 class="header-text text-hightlight">Webinar</h1>
+                    <h1 class="header-text">Management of Diabetes in COVID 19</h1>
+                </div>
+            </div>
+            <div class="col-md-3">
                 <div id="login-form-box">
-                    <h2 id="login-head">
-                        Dawning of a 
-                    </h2>
-                    <p id="login-des">
-                        New Era Of Novel Therapy
-                    </p>
-                    <input type="text" id="txtUserName" class="login-input" placeholder="User Name">
-                    <input type="password" id="txtPassword" class="login-input" placeholder="Password">
+                    <!-- <div id="login-upper-stripe"></div> -->
+                    <div id="login-bottom">
+                    
+                        <p class="input-label">Name</p>
+                        <input type="text" id="txtUserName" class="login-input">
+                        <p class="input-label">Mobile</p>
+                        <input type="password" id="txtPassword" class="login-input">
 
-                    <button id="login-button">
-                        Login
-                    </button>
-                </div>
-            </div>
-
-        </div>
-
-        <br><br>
-
-        <div class="row">
-
-            <div class="col-md-4">
-                <div class="display-box">
-                    <p class="display-head">SAFETY PROFILE OF SGLT2 INHIBITORS</p>
-                    <div class="display-image-area">
-                        <img src="_img/login/maxresdefault.jpeg" alt="" class="display-image">
-                    </div>
-                    <div class="display-info">
-                        <p class="display-name">Dr. Chaminda Garusinghe</p>
-                        <p class="display-des">
-                            President of Sri Lanka College of Endocrinologists <br>
-                            MBBS, MD (UOP), MRCP (UK) <br>
-                            MRCP Diabetes & Endocrinology (UK) <br> 
-                            Consultant Endocrinologist <br>
-                            Colombo South Teaching Hospital <br>
-                        </p>
+                        <button id="info-button">
+                            Sign in
+                        </button>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="display-box">
-                    <p class="display-head">SAFETY PROFILE OF SGLT2 INHIBITORS</p>
-                    <div class="display-image-area">
-                        <img src="_img/login/maxresdefault.jpeg" alt="" class="display-image">
-                    </div>
-                    <div class="display-info">
-                        <p class="display-name">Dr. Chaminda Garusinghe</p>
-                        <p class="display-des">
-                            President of Sri Lanka College of Endocrinologists <br>
-                            MBBS, MD (UOP), MRCP (UK) <br>
-                            MRCP Diabetes & Endocrinology (UK) <br> 
-                            Consultant Endocrinologist <br>
-                            Colombo South Teaching Hospital <br>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="display-box">
-                    <p class="display-head">SAFETY PROFILE OF SGLT2 INHIBITORS</p>
-                    <div class="display-image-area">
-                        <img src="_img/login/maxresdefault.jpeg" alt="" class="display-image">
-                    </div>
-                    <div class="display-info">
-                        <p class="display-name">Dr. Chaminda Garusinghe</p>
-                        <p class="display-des">
-                            President of Sri Lanka College of Endocrinologists <br>
-                            MBBS, MD (UOP), MRCP (UK) <br>
-                            MRCP Diabetes & Endocrinology (UK) <br> 
-                            Consultant Endocrinologist <br>
-                            Colombo South Teaching Hospital <br>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            
         </div>
     </div>
+
+
+
+
 
     <br>
     <br>
