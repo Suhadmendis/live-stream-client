@@ -35,7 +35,7 @@
                         <p class="input-label">Name</p>
                         <input type="text" id="txtUserName" class="login-input">
                         <p class="input-label">Mobile</p>
-                        <input type="password" id="txtPassword" class="login-input">
+                        <input type="text" id="txtPassword" class="login-input">
 
                         <button id="info-button">
                             Sign in

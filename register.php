@@ -36,13 +36,17 @@
                     </div>
                     <div id="login-bottom">
                     
-                        <p class="input-label">Name</p>
+                    <p class="input-label">Name</p>
                         <input type="text" id="txtUserName" class="login-input">
                         <p class="input-label">Mobile</p>
-                        <input type="password" id="txtPassword" class="login-input">
+                        <input type="text" id="txtPassword" class="login-input">
+                        <p class="input-label">E-mail</p>
+                        <input type="text" id="txtUserName" class="login-input">
+                        <p class="input-label">Speciality</p>
+                        <input type="text" id="txtPassword" class="login-input">
 
                         <button id="info-button">
-                            Sign in
+                            Register
                         </button>
                     </div>
                 </div>

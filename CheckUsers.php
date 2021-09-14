@@ -11,74 +11,43 @@ if (isset($_GET['Command'])) {
 
 if ($Command == "CheckUsers") {
 
-    $ResponseXML = "";
-    $ResponseXML .= "<salesdetails>";
-    $UserName = $_GET["UserName"];
-    $Password = $_GET["Password"];
-//    $ResponseXML .= "<action><![CDATA[" . $_GET['action'] . "]]></action>";
-//    $ResponseXML .= "<form><![CDATA[" . $_GET['form'] . "]]></form>";
-    $sql = "SELECT * FROM user_mast WHERE user_name =  '" . $UserName . "' and password =  '" . $Password . "' ";
-    $result = $conn->query($sql);
-
-    if ($row = $result->fetch()) {
-//        if (true) {
-
-        $sessionId = session_id();
-        $_SESSION['sessionId'] = session_id();
-        session_regenerate_id();
-        $ip = $_SERVER['REMOTE_ADDR'];
-        $_SESSION['UserName'] = $UserName;
-        $_SESSION['department'] = $row["user_depart"];
-        $_SESSION['User_Type'] = $row['user_type'];
-        $_SESSION['CURRENT_USER'] = $UserName;
-        /*
-          $_SESSION["CURRENT_USER"] = $UserName;
-          $_SESSION['User_Type'] = $row['dev'];
-
-          if (is_null($row["sal_ex"]) == false) {
-          $_SESSION["CURRENT_REP"] = $row["sal_ex"];
-          } else {
-          $_SESSION["CURRENT_REP"] = "";
-          }
-          $_SESSION['dev'] = $row["dev"];
-          $_SESSION['COMCODE'] = $row["COMCODE"];
-          $_SESSION['company'] = $row["COMCODE"];
-
-          $salEx = $row['sal_ex'];
-          if ($salEx > 0) {
-          $_SESSION['salEx'] = $salEx;
-          }
-         */
-
-        $action = "ok";
-        $cookie_name = "user";
-        $cookie_value = $UserName;
-        //setcookie($cookie_name, $cookie_value, time() + (43200)); // 86400 = 1 day
-
-        $token = substr(hash('sha512', mt_rand() . microtime()), 0, 50);
-        $extime = time() + 43200;
 
 
-        $domain = $_SERVER['HTTP_HOST'];
-
-// set cookie
-
-        setcookie('user', $cookie_value, $extime, "/", $domain);
+    try {
+        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $conn->beginTransaction();
 
 
-        $ResponseXML .= "<stat><![CDATA[" . $action . "]]></stat>";
-        echo $action;
+           $sql = "Insert into user_mast(username, mobile)values
+                        ('" . $_GET['UserName'] . "','" . $_GET['Password'] . "')";
+            $result = $conn->query($sql);
 
+            $action = "ok";
+            $cookie_name = "user";
+            $cookie_value = $UserName;
+            //setcookie($cookie_name, $cookie_value, time() + (43200)); // 86400 = 1 day
+        
+            $token = substr(hash('sha512', mt_rand() . microtime()), 0, 50);
+            $extime = time() + 43200;
+        
+        
+            $domain = $_SERVER['HTTP_HOST'];
+        
+        // set cookie
+        
+            setcookie('user', $cookie_value, $extime, "/", $domain);
+       
 
-        $time = mktime(date('h'), date('i'), date('s'));
-        $time = date("g.i a");
-        $today = date('Y-m-d');
-    } else {
-        $action = "not";
-        $ResponseXML .= "<stat><![CDATA[" . $action . "]]></stat>";
-        $ResponseXML .= "</salesdetails>";
-        echo $ResponseXML;
+        $conn->commit();
+
+        echo "Saved";
+    } catch (Exception $e) {
+        $conn->rollBack();
+        echo $e;
     }
+
+  
+
 }
 
 
