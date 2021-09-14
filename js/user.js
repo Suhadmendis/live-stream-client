@@ -69,13 +69,13 @@ function CheckUsers()
     {
         var val = xmlHttp.responseText;
     
-        if (val == "ok") {
+        if (val == "Saved") {
             location.href = "index.php";
         } else if (val == "Invalied Connection") {
             alert(xmlHttp.responseText);
         } else {
-           
-            document.getElementById("txterror").innerHTML = "Invalied UserName or Password";
+            alert(xmlHttp.responseText);
+            // document.getElementById("txterror").innerHTML = "Invalied UserName or Password";
         }
     }
 }
