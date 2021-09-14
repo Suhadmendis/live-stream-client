@@ -39,6 +39,13 @@ body{
     height: 50px;
     background-color: #b1ba1f;
     border-radius: 50px 0px 0px 0px;
+
+    text-align: center;
+}
+
+#login-upper-stripe-text{
+    font-size: 20px;
+    font-weight: 600;
 }
 
 #login-bottom{
