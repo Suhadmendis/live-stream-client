@@ -21,7 +21,7 @@
                     <h1 class="header-text">Management of Diabetes in COVID 19</h1>
                 </div>
                 <div id="image-box">
-                    <img src="_img.login/Untitled-1.png" alt="" id="image-dr">
+                    <img src="_img/login/Untitled-1.png" alt="" id="image-dr">
                 </div>
             </div>
             <div class="col-md-4">
