@@ -37,15 +37,15 @@
                     <div id="login-bottom">
                     
                     <p class="input-label">Name</p>
-                        <input type="text" id="txtUserName" class="login-input">
+                        <input type="text" id="name" class="login-input">
                         <p class="input-label">Mobile</p>
-                        <input type="text" id="txtPassword" class="login-input">
+                        <input type="text" id="mobile" class="login-input">
                         <p class="input-label">E-mail</p>
-                        <input type="text" id="txtUserName" class="login-input">
+                        <input type="text" id="email" class="login-input">
                         <p class="input-label">Speciality</p>
-                        <input type="text" id="txtPassword" class="login-input">
+                        <input type="text" id="speciality" class="login-input">
 
-                        <button id="info-button">
+                        <button id="info-button" onClick="register">
                             Register
                         </button>
                     </div>
@@ -62,10 +62,10 @@
     <br>
 
 <script>
-    var elem = document.getElementById("txtPassword");
+    var elem = document.getElementById("speciality");
     elem.onkeyup = function (e) {
         if (e.keyCode == 13) {
-            IsValiedData();
+            register();
         }
     }
 

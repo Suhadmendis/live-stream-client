@@ -28,10 +28,10 @@ function IsValiedData()
     if (document.getElementById('txtUserName').value == "")
     {     
         document.getElementById("txtUserName").focus();
-        document.getElementById("txterror").innerHTML = "Please Enter User Name";
+        alert("Please Enter Name");
         return false;
     } else if (document.getElementById('txtPassword').value == "") {
-        document.getElementById("txterror").innerHTML = "Please Enter Password";
+        alert("Please Enter Mobile");
         document.getElementById("txtPassword").focus();
         return false;
     } else {
@@ -79,6 +79,78 @@ function CheckUsers()
         }
     }
 }
+
+
+function register()
+{
+
+    if (document.getElementById('name').value == "")
+    {     
+        alert("Please Endter Name");
+        document.getElementById("name").focus();
+        return false;
+    } else if (document.getElementById('mobile').value == "") {
+        alert("Please Endter Mobile");
+        document.getElementById("mobile").focus();
+        return false;
+    } else if (document.getElementById('email').value == "") {
+        alert("Please Endter email");
+        document.getElementById("email").focus();
+        return false;
+    } else if (document.getElementById('Speciality').value == "") {
+        alert("Please Endter Speciality");
+        document.getElementById("speciality").focus();
+        return false;
+    } else {
+        xmlHttp = GetXmlHttpObject();
+        if (xmlHttp == null)
+        {
+            alert("Browser does not support HTTP Request");
+            return;
+        }
+
+        var url = "CheckUsers.php";
+
+        url = url + "?Command=" + "register";
+
+        url = url + "&name=" + document.getElementById('txtname').value;
+        url = url + "&mobile=" + document.getElementById('txtmobile').value;
+        url = url + "&email=" + document.getElementById('txtemail').value;
+        url = url + "&speciality=" + document.getElementById('txtspeciality').value;
+        //alert(url);
+        xmlHttp.onreadystatechange = CheckUsers;
+        xmlHttp.open("GET", url, true);
+        xmlHttp.send(null);
+
+    }
+
+}
+
+
+ 
+
+// logon button stateChanged
+function CheckUsers()
+
+{ 
+    var XMLAddress1;
+
+    if (xmlHttp.readyState == 4 || xmlHttp.readyState == "complete")
+    {
+        var val = xmlHttp.responseText;
+    
+        if (val == "Saved") {
+            location.href = "index.php";
+        } else if (val == "Invalied Connection") {
+            alert(xmlHttp.responseText);
+        } else {
+            alert(xmlHttp.responseText);
+            // document.getElementById("txterror").innerHTML = "Invalied UserName or Password";
+        }
+    }
+}
+
+
 
 function showPostion(position) {
     

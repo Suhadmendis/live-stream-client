@@ -44,6 +44,41 @@ if ($Command == "CheckUsers") {
 
 
 
+if ($Command == "register") {
+
+
+
+    try {
+        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $conn->beginTransaction();
+
+
+           $sql = "Insert into user_mast(user_name, mobile, email, speciality)values
+                        ('" . $_GET['UserName'] . "','" . $_GET['Password'] . "','" . $_GET['email'] . "','" . $_GET['speciality'] . "')";
+            $result = $conn->query($sql);
+
+            $action = "ok";
+            
+            
+            $cookie_name = "user";
+            $cookie_value = "John Doe";
+            setcookie('tallleesstream', $cookie_value, time() + (86400 * 30), "/");
+        
+
+        $conn->commit();
+
+        echo "Saved";
+    } catch (Exception $e) {
+        $conn->rollBack();
+        echo $e;
+    }
+
+  
+
+}
+
+
+
 if ($_GET["Command"] == "save_inv") {
 
 
