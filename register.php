@@ -45,7 +45,7 @@
                         <p class="input-label">Speciality</p>
                         <input type="text" id="speciality" class="login-input">
 
-                        <button id="info-button" onClick="register">
+                        <button id="info-button" onClick="register()">
                             Register
                         </button>
                     </div>
