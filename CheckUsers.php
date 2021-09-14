@@ -53,7 +53,7 @@ if ($Command == "register") {
         $conn->beginTransaction();
 
 
-           $sql = "Insert into user_mast(user_name, mobile, email, speciality)values
+           $sql = "Insert into registration(user_name, mobile, email, speciality)values
                         ('" . $_GET['UserName'] . "','" . $_GET['Password'] . "','" . $_GET['email'] . "','" . $_GET['speciality'] . "')";
             $result = $conn->query($sql);
 
