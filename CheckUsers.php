@@ -139,7 +139,7 @@ if ($Command == "logout") {
 
     $today = date('Y-m-d');
     $domain = $_SERVER['HTTP_HOST'];
-    setcookie('user', "", 1, "/", $domain);
+    setcookie('tallleesstreamr', "", 1, "/", $domain);
 
 
 
