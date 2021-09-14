@@ -113,10 +113,10 @@ function register()
 
         url = url + "?Command=" + "register";
 
-        url = url + "&name=" + document.getElementById('txtname').value;
-        url = url + "&mobile=" + document.getElementById('txtmobile').value;
-        url = url + "&email=" + document.getElementById('txtemail').value;
-        url = url + "&speciality=" + document.getElementById('txtspeciality').value;
+        url = url + "&name=" + document.getElementById('name').value;
+        url = url + "&mobile=" + document.getElementById('mobile').value;
+        url = url + "&email=" + document.getElementById('email').value;
+        url = url + "&speciality=" + document.getElementById('speciality').value;
         //alert(url);
         xmlHttp.onreadystatechange = CheckUsers;
         xmlHttp.open("GET", url, true);
