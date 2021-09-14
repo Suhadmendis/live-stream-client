@@ -9,8 +9,8 @@ if (isset($_COOKIE[$cookie_name])) {
         
     }
 }else{
-    header('Location: ' . "auth.php");
-    exit();
+    // header('Location: ' . "auth.php");
+    // exit();
 }
 ?> 
 <!DOCTYPE html>
