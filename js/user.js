@@ -190,6 +190,60 @@ function logout_state_Changed()
 }
 
 
+function showData()
+{
+
+    xmlHttp = GetXmlHttpObject();
+    if (xmlHttp == null)
+    {
+        alert("Browser does not support HTTP Request");
+        return;
+    }
+
+    var url = "CheckUsers.php";
+
+    url = url + "?Command=" + "showDataRegister";
+
+    xmlHttp.onreadystatechange = resultData;
+    xmlHttp.open("GET", url, true);
+    xmlHttp.send(null);
+
+}
+
+function resultData()
+{
+    var XMLAddress1;
+    if (xmlHttp.readyState == 4 || xmlHttp.readyState == "complete")
+    {
+        var data = JSON.parse(xmlHttp.responseText);
+
+        
+        console.log(data[0]);
+
+        $(document).ready(function() {
+            var table = $('#example').DataTable( {
+                dom: 'Bfrtip',
+                buttons: [
+                    'copy', 'csv', 'excel', 'pdf', 'print'
+                ]
+            } );
+         
+                
+         
+              
+        
+         
+        } );
+        
+        table.row.add( [
+            '.1'
+           
+        ] ).draw();
+    }
+
+}
+
+
 
 function lock_acc()
 {

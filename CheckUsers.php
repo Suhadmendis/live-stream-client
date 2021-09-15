@@ -78,6 +78,28 @@ if ($Command == "register") {
 }
 
 
+if ($Command == "showDataRegister") {
+    header('Content-Type: application/json');
+    
+    $objArray = Array();
+
+   
+    $sql = "SELECT * FROM registration";
+   
+    $result = $conn->query($sql);
+    $row = $result->fetchAll();
+  
+    array_push($objArray,$row);
+
+    $sql = "SELECT * FROM user_mast";
+   
+    $result = $conn->query($sql);
+    $row = $result->fetchAll();
+  
+    array_push($objArray,$row);
+
+    echo json_encode($objArray);
+}
 
 if ($_GET["Command"] == "save_inv") {
 
