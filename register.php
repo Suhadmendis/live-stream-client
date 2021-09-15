@@ -25,7 +25,9 @@
                 </div>
             </div>
             <div class="col-md-3">
-                
+                <div id="date-box">
+                    <img src="_img/login/Registration Screen 1920 x 1080-01 (1).png" alt="" id="date-image">
+                </div>
             </div>
             <div class="col-md-3">
                 <div id="login-form-box">

@@ -25,6 +25,9 @@ body{
     width: 100%;
 }
 
+#date-image{
+    width: 100%;
+}
 
 #login-form-box{
     margin-top: 150px;
