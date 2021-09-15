@@ -227,18 +227,26 @@ function resultData()
                     'copy', 'csv', 'excel', 'pdf', 'print'
                 ]
             } );
-         
+         console.log(data[0].length);
                 
-         
+
+            for (let index = 0; index < data[0].length; index++) {
+                console.log(index);
+                table.row.add( [
+                    data[0][index].name,
+                    data[0][index].mobile,
+                    data[0][index].email,
+                    data[0][index].speciality
+                ] ).draw();
+                
+            }
+           
               
         
          
         } );
-        
-        table.row.add( [
-            '.1'
-           
-        ] ).draw();
+
+      
     }
 
 }

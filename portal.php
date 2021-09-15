@@ -25,11 +25,17 @@
         <thead>
             <tr>
                 <th>Name</th>
+                <th>Mobile</th>
+                <th>Email</th>
+                <th>Speciality</th>
             </tr>
         </thead>
         <tfoot>
             <tr>
                 <th>Name</th>
+                <th>Mobile</th>
+                <th>Email</th>
+                <th>Speciality</th>
             </tr>
         </tfoot>
     </table>

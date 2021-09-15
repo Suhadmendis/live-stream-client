@@ -54,11 +54,11 @@ if ($Command == "register") {
 
 
            $sql = "Insert into registration(name, mobile, email, speciality)values
-                        ('" . $_GET['UserName'] . "','" . $_GET['Password'] . "','" . $_GET['email'] . "','" . $_GET['speciality'] . "')";
+                        ('" . $_GET['name'] . "','" . $_GET['mobile'] . "','" . $_GET['email'] . "','" . $_GET['speciality'] . "')";
             $result = $conn->query($sql);
 
             $action = "ok";
-            
+            echo $sql;
             
             $cookie_name = "user";
             $cookie_value = "John Doe";
