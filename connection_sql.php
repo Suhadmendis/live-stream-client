@@ -18,7 +18,7 @@ $servername = '198.38.88.88';
 $username = 'talstree';
 $password = 'h2O)(qKD9u59zM';
 $port = 3306;
-$dbname = 'talstree_livestream';
+$dbname = 'talstree_stream';
 
 
 $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
