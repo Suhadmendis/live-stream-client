@@ -140,7 +140,13 @@ function CheckUsers()
         var val = xmlHttp.responseText;
     
         if (val == "Saved") {
-            location.href = "index.php";
+            // location.href = "index.php";
+            document.getElementById('name').value = "";
+            document.getElementById('mobile').value = "";
+            document.getElementById('email').value = "";
+            document.getElementById('speciality').value = "";
+
+            alert("Thank you for Registering!");
         } else if (val == "Invalied Connection") {
             alert(xmlHttp.responseText);
         } else {

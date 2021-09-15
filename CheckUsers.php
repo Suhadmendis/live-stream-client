@@ -60,9 +60,9 @@ if ($Command == "register") {
             $action = "ok";
           
             
-            $cookie_name = "user";
-            $cookie_value = "John Doe";
-            setcookie('tallleesstream', $cookie_value, time() + (86400 * 30), "/");
+            // $cookie_name = "user";
+            // $cookie_value = "John Doe";
+            // setcookie('tallleesstream', $cookie_value, time() + (86400 * 30), "/");
         
 
         $conn->commit();
