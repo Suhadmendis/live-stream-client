@@ -25,6 +25,10 @@ body{
     width: 100%;
 }
 
+#date-box{
+    margin-top: 250px;
+}
+
 #date-image{
     width: 100%;
 }
