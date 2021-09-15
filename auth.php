@@ -18,7 +18,7 @@
             <div class="col-md-6">
                 <div id="heading-box">
                     <h1 class="header-text text-hightlight">Webinar</h1>
-                    <h1 class="header-text">Management of Diabetes in COVID 19</h1>
+                    <h1 class="header-text">Optimizing<br> Diabetes care in<br> COVID 19 <br> pandemic</h1>
                 </div>
                 <div id="image-box">
                     <img src="_img/login/Untitled-1.png" alt="" id="image-dr">
