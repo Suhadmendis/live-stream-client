@@ -58,7 +58,7 @@ if ($Command == "register") {
             $result = $conn->query($sql);
 
             $action = "ok";
-            echo $sql;
+          
             
             $cookie_name = "user";
             $cookie_value = "John Doe";
