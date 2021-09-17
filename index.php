@@ -59,7 +59,8 @@ if (isset($_COOKIE[$cookie_name])) {
                 </div>
                 <div class="col-md-2">
                     <div class="side-box">
-                        <div class="branding-logo-area" id="branding_2_1">
+                        <img src="_img/staircase/tallees003/Sanofi 3D Render image Pillar1.png" alt="">
+                        <!-- <div class="branding-logo-area" id="branding_2_1">
                             <img class="branding-logo-images" src="_img/branding/right bar/garena-logo-1.png" alt="">
                         </div>
                         <div class="branding-logo-area" id="branding_2_2">
@@ -70,7 +71,7 @@ if (isset($_COOKIE[$cookie_name])) {
                         </div>
                         <div class="branding-logo-area" id="branding_2_4">
                             <img class="branding-logo-images" src="_img/branding/right bar/garena-logo-1.png" alt="">
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
