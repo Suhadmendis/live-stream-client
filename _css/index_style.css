@@ -29,9 +29,14 @@ body{
     
     .side-box{
         width: 100%;
-        height: 720px;
+        ;
+        /* height: 720px;
         background-color: white;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+    }
+    .side-box-image{
+        width: 100%;
+        object-fit: cover;
     }
     
     .video-box{
@@ -84,8 +89,11 @@ body{
         width: 175%;
     }
     .stage-images{
-        margin-left: -58px;
-        width: 107%;
+        position: absolute;
+        bottom: 0;
+        width: 86%;
+        /* margin-left: -58px;
+        width: 107%; */
     }
 }
 
@@ -107,9 +115,9 @@ body{
     
     .side-box{
         width: 100%;
-        height: 500px;
+        /* height: 500px;
         background-color: white;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
     }
     
     .video-box{
