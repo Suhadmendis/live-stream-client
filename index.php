@@ -39,16 +39,16 @@ if (isset($_COOKIE[$cookie_name])) {
                     <div class="side-box">
                         <!-- <img src="_img/staircase/tallees003/Sanofi 3D Render image Pillar2.png" class="side-box-image" alt=""> -->
                         <div class="branding-logo-area" id="branding_1_1">
-                            <img class="branding-logo-images" src="_img/stairecase/tallees004/logo001.png" alt="">
+                            <img class="branding-logo-images" src="_img/staircase/tallees004/logo001.png" alt="">
                         </div>
                         <div class="branding-logo-area" id="branding_1_2">
-                            <img class="branding-logo-images" src="_img/stairecase/tallees004/logo001.png" alt="">
+                            <img class="branding-logo-images" src="_img/staircase/tallees004/logo001.png" alt="">
                         </div>
                         <div class="branding-logo-area" id="branding_1_3">
-                            <img class="branding-logo-images" src="_img/stairecase/tallees004/logo001.png" alt="">
+                            <img class="branding-logo-images" src="_img/staircase/tallees004/logo001.png" alt="">
                         </div>
                         <div class="branding-logo-area" id="branding_1_4">
-                            <img class="branding-logo-images" src="_img/stairecase/tallees004/logo001.png" alt="">
+                            <img class="branding-logo-images" src="_img/staircase/tallees004/logo001.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -61,16 +61,16 @@ if (isset($_COOKIE[$cookie_name])) {
                     <div class="side-box">
                         <!-- <img src="_img/staircase/tallees003/Sanofi 3D Render image Pillar1.png" class="side-box-image" alt=""> -->
                         <div class="branding-logo-area" id="branding_2_1">
-                            <img class="branding-logo-images" src="_img/stairecase/tallees004/logo001.png" alt="">
+                            <img class="branding-logo-images" src="_img/staircase/tallees004/logo001.png" alt="">
                         </div>
                         <div class="branding-logo-area" id="branding_2_2">
-                            <img class="branding-logo-images" src="_img/stairecase/tallees004/logo001.png" alt="">
+                            <img class="branding-logo-images" src="_img/staircase/tallees004/logo001.png" alt="">
                         </div>
                         <div class="branding-logo-area" id="branding_2_3">
-                            <img class="branding-logo-images" src="_img/stairecase/tallees004/logo001.png" alt="">
+                            <img class="branding-logo-images" src="_img/staircase/tallees004/logo001.png" alt="">
                         </div>
                         <div class="branding-logo-area" id="branding_2_4">
-                            <img class="branding-logo-images" src="_img/stairecase/tallees004/logo001.png" alt="">
+                            <img class="branding-logo-images" src="_img/staircase/tallees004/logo001.png" alt="">
                         </div>
                     </div>
                 </div>
