@@ -37,8 +37,8 @@ if (isset($_COOKIE[$cookie_name])) {
                 <!-- <h1 id="company-name">Tallees Advertising</h1> -->
                 <div class="col-md-2">
                     <div class="side-box">
-                        <img src="_img/staircase/tallees003/Sanofi 3D Render image Pillar2.png" class="side-box-image" alt="">
-                        <!-- <div class="branding-logo-area" id="branding_1_1">
+                        <!-- <img src="_img/staircase/tallees003/Sanofi 3D Render image Pillar2.png" class="side-box-image" alt=""> -->
+                        <div class="branding-logo-area" id="branding_1_1">
                             <img class="branding-logo-images" src="_img/branding/right bar/garena-logo-1.png" alt="">
                         </div>
                         <div class="branding-logo-area" id="branding_1_2">
@@ -49,7 +49,7 @@ if (isset($_COOKIE[$cookie_name])) {
                         </div>
                         <div class="branding-logo-area" id="branding_1_4">
                             <img class="branding-logo-images" src="_img/branding/right bar/garena-logo-1.png" alt="">
-                        </div> -->
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-8">
@@ -59,8 +59,8 @@ if (isset($_COOKIE[$cookie_name])) {
                 </div>
                 <div class="col-md-2">
                     <div class="side-box">
-                        <img src="_img/staircase/tallees003/Sanofi 3D Render image Pillar1.png" class="side-box-image" alt="">
-                        <!-- <div class="branding-logo-area" id="branding_2_1">
+                        <!-- <img src="_img/staircase/tallees003/Sanofi 3D Render image Pillar1.png" class="side-box-image" alt=""> -->
+                        <div class="branding-logo-area" id="branding_2_1">
                             <img class="branding-logo-images" src="_img/branding/right bar/garena-logo-1.png" alt="">
                         </div>
                         <div class="branding-logo-area" id="branding_2_2">
@@ -71,7 +71,7 @@ if (isset($_COOKIE[$cookie_name])) {
                         </div>
                         <div class="branding-logo-area" id="branding_2_4">
                             <img class="branding-logo-images" src="_img/branding/right bar/garena-logo-1.png" alt="">
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
