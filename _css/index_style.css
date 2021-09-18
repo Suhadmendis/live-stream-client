@@ -17,7 +17,11 @@ body{
 
 
 .footer-button__img-layer{
-    display: none;
+    display: none !important;
+}
+
+.footer-button__button-label{
+    display: none !important;
 }
 
 @media (max-width: 1980px) {
