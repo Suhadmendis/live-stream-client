@@ -83,9 +83,9 @@ body{
         background-color: rgb(178, 187, 30);
     }
     
-    /* #stage-platform{
-        
-    } */
+    #stage-platform{
+     margin-top: 10px;   
+    }
 
     .staircase-images{
         margin-left: -93px;
