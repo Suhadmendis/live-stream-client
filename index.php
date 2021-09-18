@@ -23,8 +23,8 @@ if (isset($_COOKIE[$cookie_name])) {
     <meta name="theme-color" content="#3d3d3d" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="_css/index_style.css">
-    <script src="js/user.js"></script>
+    <link rel="stylesheet" href="_css/index_style.css?v=0000000001">
+    <script src="js/user.js?v=0000000001"></script>
 
 </head>
 <body>

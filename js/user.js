@@ -118,7 +118,7 @@ function register()
         url = url + "&email=" + document.getElementById('email').value;
         url = url + "&speciality=" + document.getElementById('speciality').value;
         //alert(url);
-        xmlHttp.onreadystatechange = CheckUsers;
+        xmlHttp.onreadystatechange = CheckUsersReg;
         xmlHttp.open("GET", url, true);
         xmlHttp.send(null);
 
@@ -130,7 +130,7 @@ function register()
  
 
 // logon button stateChanged
-function CheckUsers()
+function CheckUsersReg()
 
 { 
     var XMLAddress1;
