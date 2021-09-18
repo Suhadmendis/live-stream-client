@@ -14,6 +14,12 @@ body{
     height: 335px !important;
 }
 
+
+
+.footer-button__img-layer{
+    display: none;
+}
+
 @media (max-width: 1980px) {
     #company-name{
         text-align: center;
