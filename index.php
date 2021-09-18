@@ -45,7 +45,7 @@ if (isset($_COOKIE[$cookie_name])) {
                             <img class="branding-logo-images" src="_img/staircase/tallees004/logo001.png" alt="">
                         </div>
                         <div class="branding-logo-area" id="branding_1_3">
-                            <!-- <img class="branding-logo-images" src="_img/staircase/tallees004/logo001.png" alt=""> -->
+                            <img class="branding-logo-images" src="_img/staircase/tallees004/pilwave.png" alt="">
                         </div>
                         <div class="branding-logo-area" id="branding_1_4">
                             <img class="branding-logo-images" src="_img/staircase/tallees004/logo002.png" alt="">
@@ -67,7 +67,7 @@ if (isset($_COOKIE[$cookie_name])) {
                             <img class="branding-logo-images" src="_img/staircase/tallees004/logo001.png" alt="">
                         </div>
                         <div class="branding-logo-area" id="branding_2_3">
-                            <!-- <img class="branding-logo-images" src="_img/staircase/tallees004/logo001.png" alt=""> -->
+                            <img class="branding-logo-images" src="_img/staircase/tallees004/pilwave.png" alt="">
                         </div>
                         <div class="branding-logo-area" id="branding_2_4">
                             <img class="branding-logo-images" src="_img/staircase/tallees004/logo002.png" alt="">
