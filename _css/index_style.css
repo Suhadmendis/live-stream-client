@@ -66,21 +66,25 @@ body{
     
     #branding_1_2{}
     
-    #branding_1_3{}
+    #branding_1_3{} */
     
-    #branding_1_4{}
+    #branding_1_4{
+        background-color: rgb(178, 187, 30);
+    }
     
     
     
-    #branding_2_1{}
+    /* #branding_2_1{}
     
     #branding_2_2{}
     
-    #branding_2_3{}
+    #branding_2_3{} */
     
-    #branding_2_4{}
+    #branding_2_4{
+        background-color: rgb(178, 187, 30);
+    }
     
-    #stage-platform{
+    /* #stage-platform{
         
     } */
 
@@ -147,21 +151,25 @@ body{
     
     #branding_1_2{}
     
-    #branding_1_3{}
+    #branding_1_3{} */
     
-    #branding_1_4{}
+    #branding_1_4{
+        background-color: rgb(178, 187, 30);
+    }
     
     
     
-    #branding_2_1{}
+    /* #branding_2_1{}
     
     #branding_2_2{}
     
-    #branding_2_3{}
+    #branding_2_3{} */
     
-    #branding_2_4{}
+    #branding_2_4{
+        background-color: rgb(178, 187, 30);
+    }
     
-    #stage-platform{
+    /* #stage-platform{
         
     } */
 
@@ -227,19 +235,24 @@ body{
     
     #branding_1_2{}
     
-    #branding_1_3{}
+    #branding_1_3{} */
     
-    #branding_1_4{}
+    #branding_1_4{
+        background-color: rgb(178, 187, 30);
+    }
     
     
     
-    #branding_2_1{}
+    /* #branding_2_1{}
     
     #branding_2_2{}
     
-    #branding_2_3{}
+    #branding_2_3{} */
     
-    #branding_2_4{} */
+    #branding_2_4{
+        background-color: rgb(178, 187, 30);
+    }
+
     
 
     #stage-platform{
