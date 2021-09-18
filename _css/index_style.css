@@ -92,9 +92,9 @@ body{
         width: 175%;
     }
     .stage-images{
-        position: absolute;
+        /* position: absolute;
         bottom: 0;
-        width: 86.8%;
+        width: 86.8%; */
         /* margin-left: -58px;
         width: 107%; */
     }
@@ -178,7 +178,7 @@ body{
     }
     .stage-images{
         margin-left: -40px;
-        width: 89.5%;
+        width: 107%;
     }
     
 }
