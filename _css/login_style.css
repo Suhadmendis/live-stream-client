@@ -7,7 +7,7 @@ body{
 }
 
 #heading-box{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .header-text{
@@ -35,7 +35,7 @@ body{
 }
 
 #login-form-box{
-    margin-top: 150px;
+    margin-top: 100px;
     padding: 0px;
     width: 100%;
     background-color: white;
