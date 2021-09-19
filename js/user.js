@@ -262,7 +262,7 @@ function resultData()
             }
         } );
 
-        $("#pallet").hide();
+        $("#pallet").show();
     }
 
 }
