@@ -27,7 +27,7 @@
 
 
 
-<!-- <table id="example" class="display" style="width:100%">
+<table id="example" class="display" style="width:100%">
         <thead>
             <tr>
                 <th>Name</th>
@@ -60,7 +60,7 @@
                 <th>Mobile</th>
             </tr>
         </tfoot>
-    </table> -->
+    </table>
   
 
 
@@ -71,7 +71,7 @@
 $(document).ready(function(){
     
     $("#pallet").hide();
-    document.getElementById('pallet').innerHTML = '<table id="example" class="display" style="width:100%"><thead><tr><th>Name</th><th>Mobile</th><th>Email</th><th>Speciality</th></tr></thead> <tfoot>   <tr>       <th>Name</th>       <th>Mobile</th>       <th>Email</th>       <th>Speciality</th>   </tr> </tfoot>  </table<hr> <h2>Login</h2> <table id="example1" class="display" style="width:100%">   <thead>   <tr>   <th>Name</th>    <th>Mobile</th>  </tr>  </thead>   <tfoot>    <tr>     <th>Name</th>       <th>Mobile</th>      </tr>    </tfoot>  </table>';
+    // document.getElementById('pallet').innerHTML = '<table id="example" class="display" style="width:100%"><thead><tr><th>Name</th><th>Mobile</th><th>Email</th><th>Speciality</th></tr></thead> <tfoot>   <tr>       <th>Name</th>       <th>Mobile</th>       <th>Email</th>       <th>Speciality</th>   </tr> </tfoot>  </table<hr> <h2>Login</h2> <table id="example1" class="display" style="width:100%">   <thead>   <tr>   <th>Name</th>    <th>Mobile</th>  </tr>  </thead>   <tfoot>    <tr>     <th>Name</th>       <th>Mobile</th>      </tr>    </tfoot>  </table>';
 });
 
 
