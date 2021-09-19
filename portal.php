@@ -21,7 +21,7 @@
 </head>
 <body>
 
-<div id="pallet">
+<!-- <div id="pallet"> -->
 
 <h2>Registration</h2>
 
@@ -64,7 +64,7 @@
   
 
 
-</div>
+<!-- </div> -->
 
 <script>
 
