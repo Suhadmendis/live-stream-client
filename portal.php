@@ -79,7 +79,7 @@ $(document).ready(function(){
 </script>
 
 
-<script src="js/user.js"></script>
+<script src="js/user.js?v=0000000001"></script>
 
 <script>showData()</script>
 
