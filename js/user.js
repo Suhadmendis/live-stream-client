@@ -252,13 +252,11 @@ function resultData()
                     'copy', 'csv', 'excel', 'pdf', 'print'
                 ]
             } );
-            for (let index = 0; index < data[0].length; index++) {
+            for (let index = 0; index < data[1].length; index++) {
                 console.log(index);
                 table.row.add( [
-                    data[0][index].name,
-                    data[0][index].mobile,
-                    data[0][index].email,
-                    data[0][index].speciality
+                    data[1][index].name,
+                    data[1][index].mobile                   
                 ] ).draw();
                 
             }
