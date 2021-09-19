@@ -43,7 +43,7 @@
             </tr>
         </tfoot>
     </table>
-
+<hr>
     <h2>Login</h2>
     <table id="example1" class="display" style="width:100%">
         <thead>
@@ -67,20 +67,9 @@
 </div>
 
 <script>
-// $(document).ready(function() {
-//     var table = $('#example').DataTable( {
-//         dom: 'Bfrtip',
-//         buttons: [
-//             'copy', 'csv', 'excel', 'pdf', 'print'
-//         ]
-//     } );
-
-//     table.row.add( {
-//         "name":       "Tiger Nixon"
-//     } ).draw();
-// } );
-
-
+$(document).ready(function(){
+    $("#pallet").hide();
+});
 
 </script>
 
