@@ -255,7 +255,7 @@ function resultData()
             for (let index = 0; index < data[1].length; index++) {
                 console.log(index);
                 table.row.add( [
-                    data[1][index].name,
+                    data[1][index].user_name,
                     data[1][index].mobile                   
                 ] ).draw();
                 

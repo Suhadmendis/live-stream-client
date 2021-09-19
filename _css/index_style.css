@@ -24,6 +24,95 @@ body{
     display: none !important;
 }
 
+@media (max-width: 4980px) {
+    #company-name{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: white;
+    }
+    
+    #video-section{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .side-box{
+        width: 100%;
+        height: 720px;
+        background-color: white;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+    .side-box-image{
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .video-box{
+        /* margin-left: 50px;
+        margin-right: 50px; */
+        
+        height: 720px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+    
+    #video-iframe{
+        width: 100%;
+        height: 720px;
+    }
+    
+    .branding-logo-area{
+        width: 100%;
+        height: 180px;
+        position: relative;
+    }
+    
+    .branding-logo-images{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    /* #branding_1_1{}
+    
+    #branding_1_2{}
+    
+    #branding_1_3{} */
+    
+    #branding_1_4{
+        background-color: rgb(178, 187, 30);
+    }
+    
+    
+    
+    /* #branding_2_1{}
+    
+    #branding_2_2{}
+    
+    #branding_2_3{} */
+    
+    #branding_2_4{
+        background-color: rgb(178, 187, 30);
+    }
+    
+    #stage-platform{
+     margin-top: 10px;   
+    }
+
+    .staircase-images{
+        margin-left: -93px;
+        width: 175%;
+    }
+    .stage-images{
+        /* position: absolute;
+        bottom: 0;
+        width: 86.8%; */
+        margin-left: -58px;
+        width: 108%;
+    }
+}
+
+
 @media (max-width: 1980px) {
     #company-name{
         text-align: center;
