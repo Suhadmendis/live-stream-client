@@ -32,10 +32,10 @@
             </div>
             <div class="col-md-3">
                 <div id="login-form-box">
-                    <!-- <div id="login-upper-stripe">
-                        <p id="login-upper-stripe-text">
+                    <div id="login-upper-stripe">
+                        <!-- <p id="login-upper-stripe-text">
                             Registraion
-                        </p>
+                        </p> -->
                     </div>
                     <div id="login-bottom">
                     
@@ -51,13 +51,21 @@
                         <button id="info-button" onClick="register()">
                             Register
                         </button>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                fgdg
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
 
 
 
