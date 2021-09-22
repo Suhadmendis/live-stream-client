@@ -1,6 +1,6 @@
 <?php
 include './CheckCookie.php';
-$cookie_name = "tallleesstream";
+$cookie_name = "tallleesnovartis";
 if (isset($_COOKIE[$cookie_name])) {
 
     // $mo = chk_cookie($_COOKIE[$cookie_name]);

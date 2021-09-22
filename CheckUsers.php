@@ -27,7 +27,7 @@ if ($Command == "CheckUsers") {
             
             $cookie_name = "user";
             $cookie_value = "John Doe";
-            setcookie('tallleesstream', $cookie_value, time() + (86400 * 30), "/");
+            setcookie('tallleesnovartis', $cookie_value, time() + (86400 * 30), "/");
         
 
         $conn->commit();
@@ -62,7 +62,7 @@ if ($Command == "register") {
             
             // $cookie_name = "user";
             // $cookie_value = "John Doe";
-            // setcookie('tallleesstream', $cookie_value, time() + (86400 * 30), "/");
+            // setcookie('tallleesnovartis', $cookie_value, time() + (86400 * 30), "/");
         
 
         $conn->commit();
@@ -196,7 +196,7 @@ if ($Command == "logout") {
 
     $today = date('Y-m-d');
     $domain = $_SERVER['HTTP_HOST'];
-    setcookie('tallleesstreamr', "", 1, "/", $domain);
+    setcookie('tallleesnovartis', "", 1, "/", $domain);
 
 
 
