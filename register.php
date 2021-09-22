@@ -63,9 +63,9 @@
             <div class="col-md-4">
                 <div id="login-form-box">
                     <div id="login-upper-stripe">
-                        <p id="login-upper-stripe-text">
+                        <!-- <p id="login-upper-stripe-text">
                             Registraion
-                        </p>
+                        </p> -->
                     </div>
                     <div id="login-bottom">
                     

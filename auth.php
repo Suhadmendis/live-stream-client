@@ -28,7 +28,7 @@
                 
             </div>
             <div class="col-md-3">
-                <div id="login-form-box">
+                <!-- <div id="login-form-box"> -->
                     <!-- <div id="login-upper-stripe"></div> -->
                     <!-- <div id="login-bottom">
                     
@@ -40,14 +40,36 @@
                         <button id="info-button" onClick="IsValiedData()">
                             Sign in
                         </button>
-                    </div> -->
-                </div>
+                    </div>
+                </div> -->
             </div>
         </div>
     </div>
 
+    <br><br><br><br>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div id="login-form-box">
+                    <!-- <div id="login-upper-stripe"></div> -->
+                    <div id="login-bottom">
+                    
+                        <p class="input-label">Name</p>
+                        <input type="text" id="txtUserName" class="login-input">
+                        <p class="input-label">Mobile</p>
+                        <input type="text" id="txtPassword" class="login-input">
 
+                        <button id="info-button" onClick="IsValiedData()">
+                            Sign in
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
 
 
     <br>
