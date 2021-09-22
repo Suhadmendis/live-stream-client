@@ -32,10 +32,39 @@
             </div>
             <div class="col-md-3">
                 <div id="login-form-box">
-                    <div id="login-upper-stripe">
-                        <!-- <p id="login-upper-stripe-text">
+                    <!-- <div id="login-upper-stripe">
+                        <p id="login-upper-stripe-text">
                             Registraion
-                        </p> -->
+                        </p>
+                    </div>
+                    <div id="login-bottom">
+                    
+                    <p class="input-label">Name</p>
+                        <input type="text" id="name" class="login-input">
+                        <p class="input-label">Mobile</p>
+                        <input type="text" id="mobile" class="login-input">
+                        <p class="input-label">E-mail</p>
+                        <input type="text" id="email" class="login-input">
+                        <p class="input-label">Speciality</p>
+                        <input type="text" id="speciality" class="login-input">
+
+                        <button id="info-button" onClick="register()">
+                            Register
+                        </button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                    <div id="login-upper-stripe">
+                        <p id="login-upper-stripe-text">
+                            Registraion
+                        </p>
                     </div>
                     <div id="login-bottom">
                     
@@ -52,16 +81,6 @@
                             Register
                         </button>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                fgdg
             </div>
             <div class="col-md-4"></div>
         </div>
