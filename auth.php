@@ -53,7 +53,7 @@
             <div class="col-md-4"></div>
             <div class="col-md-4">
                 <div id="login-form-box">
-                    <!-- <div id="login-upper-stripe"></div> -->
+                    <div id="login-upper-stripe"></div>
                     <div id="login-bottom">
                     
                         <p class="input-label">Name</p>
