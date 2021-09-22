@@ -1,5 +1,5 @@
 body{
-    background-image: url('../_img/staircase/tallees003/Sanofi\ 3D\ Render\ Top\ image.png');
+    background-image: url('../_img/novartis/platform/3D-Render-image-Top.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -196,8 +196,8 @@ body{
         /* position: absolute;
         bottom: 0;
         width: 86.8%; */
-        margin-left: -58px;
-        width: 108%;
+        margin-left: -30px;
+        width: 103.6%;
     }
 }
 

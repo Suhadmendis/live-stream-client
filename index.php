@@ -20,7 +20,7 @@ if (isset($_COOKIE[$cookie_name])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tallees Advertising</title>
-    <meta name="theme-color" content="#3d3d3d" />
+    <meta name="theme-color" content="#953484" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <link rel="stylesheet" href="_css/index_style.css?v=0000000001">
@@ -81,7 +81,7 @@ if (isset($_COOKIE[$cookie_name])) {
                     <img class="staircase-images" src="_img/staircase/staircase.png" alt="">
                 </div> -->
                 <div class="col-md-12">
-                    <img class="stage-images" src="_img/staircase/tallees003/3D Render image Bottom Image.png" alt="">
+                    <img class="stage-images" src="_img/novartis/platform/3D-Render-image-Bottom.png" alt="">
                 </div>
                 <!-- <div class="col-md-2">
                     <img class="staircase-images" src="_img/staircase/staircase.png" alt="">
