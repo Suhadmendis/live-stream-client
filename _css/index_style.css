@@ -70,30 +70,38 @@ body{
     .branding-logo-images{
         width: 100%;
         position: absolute;
+        top: 0;
+    }
+
+    .branding-logo-images-bottom{
+        width: 100%;
+        position: absolute;
         bottom: 0;
     }
     
-    /* #branding_1_1{}
+    #branding_1_1 {
+        height: 134px;
+    }
     
-    #branding_1_2{}
+    /* #branding_1_2{}
     
     #branding_1_3{} */
     
-    #branding_1_4{
-        /* background-color: rgb(178, 187, 30); */
+    /* #branding_1_4{} */
+
+
+    
+    
+    
+    #branding_2_1{
+        height: 134px;
     }
     
-    
-    
-    /* #branding_2_1{}
-    
-    #branding_2_2{}
+    /* #branding_2_2{}
     
     #branding_2_3{} */
     
-    #branding_2_4{
-        /* background-color: rgb(178, 187, 30); */
-    }
+    /* #branding_2_4{} */
     
     #stage-platform{
      margin-top: 10px;   
@@ -107,8 +115,8 @@ body{
         /* position: absolute;
         bottom: 0;
         width: 86.8%; */
-        margin-left: -58px;
-        width: 108%;
+        margin-left: -30px;
+        width: 103.6%;
     }
 }
 
@@ -168,11 +176,17 @@ body{
         bottom: 0;
     }
     
-    /* #branding_1_1 {} */
+    #branding_1_1 {
+        height: 134px;
+    }
     
-    /* #branding_1_2{}
+    #branding_1_2{
+        background-color: #e1e6ea;
+    }
     
-    #branding_1_3{} */
+    /* #branding_1_3{
+        background-color: #e1e6ea;
+    } */
     
     /* #branding_1_4{} */
 
@@ -180,11 +194,17 @@ body{
     
     
     
-    /* #branding_2_1{}
+    #branding_2_1{
+        height: 134px;
+    }
     
-    #branding_2_2{}
+    #branding_1_2{
+        background-color: #e1e6ea;
+    }
     
-    #branding_2_3{} */
+    /* #branding_1_3{
+        background-color: #e1e6ea;
+    } */
     
     /* #branding_2_4{} */
     
@@ -251,27 +271,37 @@ body{
         width: 100%;
     }
     
-    /* #branding_1_1{}
-    
-    #branding_1_2{}
-    
-    #branding_1_3{} */
-    
-    #branding_1_4{
-        /* background-color: rgb(178, 187, 30); */
+    #branding_1_1 {
+        height: 100px;
     }
     
-    
-    
-    /* #branding_2_1{}
-    
-    #branding_2_2{}
-    
-    #branding_2_3{} */
-    
-    #branding_2_4{
-        /* background-color: rgb(178, 187, 30); */
+    #branding_1_2{
+        background-color: #e1e6ea;
     }
+    
+    /* #branding_1_3{
+        background-color: #e1e6ea;
+    } */
+    
+    /* #branding_1_4{} */
+
+
+    
+    
+    
+    #branding_2_1{
+        height: 100px;
+    }
+    
+    #branding_1_2{
+        background-color: #e1e6ea;
+    }
+    
+    /* #branding_1_3{
+        background-color: #e1e6ea;
+    } */
+    
+    /* #branding_2_4{} */
     
     /* #stage-platform{
         
