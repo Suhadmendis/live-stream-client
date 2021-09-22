@@ -80,7 +80,7 @@ body{
     #branding_1_3{} */
     
     #branding_1_4{
-        background-color: rgb(178, 187, 30);
+        /* background-color: rgb(178, 187, 30); */
     }
     
     
@@ -92,7 +92,7 @@ body{
     #branding_2_3{} */
     
     #branding_2_4{
-        background-color: rgb(178, 187, 30);
+        /* background-color: rgb(178, 187, 30); */
     }
     
     #stage-platform{
@@ -159,18 +159,24 @@ body{
     .branding-logo-images{
         width: 100%;
         position: absolute;
+        top: 0;
+    }
+
+    .branding-logo-images-bottom{
+        width: 100%;
+        position: absolute;
         bottom: 0;
     }
     
-    /* #branding_1_1{}
+    /* #branding_1_1 {} */
     
-    #branding_1_2{}
+    /* #branding_1_2{}
     
     #branding_1_3{} */
     
-    #branding_1_4{
-        background-color: rgb(178, 187, 30);
-    }
+    /* #branding_1_4{} */
+
+
     
     
     
@@ -180,9 +186,7 @@ body{
     
     #branding_2_3{} */
     
-    #branding_2_4{
-        background-color: rgb(178, 187, 30);
-    }
+    /* #branding_2_4{} */
     
     #stage-platform{
      margin-top: 10px;   
@@ -254,7 +258,7 @@ body{
     #branding_1_3{} */
     
     #branding_1_4{
-        background-color: rgb(178, 187, 30);
+        /* background-color: rgb(178, 187, 30); */
     }
     
     
@@ -266,7 +270,7 @@ body{
     #branding_2_3{} */
     
     #branding_2_4{
-        background-color: rgb(178, 187, 30);
+        /* background-color: rgb(178, 187, 30); */
     }
     
     /* #stage-platform{
@@ -338,7 +342,7 @@ body{
     #branding_1_3{} */
     
     #branding_1_4{
-        background-color: rgb(178, 187, 30);
+        /* background-color: rgb(178, 187, 30); */
     }
     
     
@@ -350,7 +354,7 @@ body{
     #branding_2_3{} */
     
     #branding_2_4{
-        background-color: rgb(178, 187, 30);
+        /* background-color: rgb(178, 187, 30); */
     }
 
     
