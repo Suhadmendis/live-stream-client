@@ -14,24 +14,24 @@
 </head>
 <body>
     
-    <div class="container">
+    <!-- <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <div id="heading-box">
-                    <!-- <h1 class="header-text text-hightlight">Webinar</h1>
-                    <h1 class="header-text">Optimizing<br> Diabetes care in<br> COVID 19 <br> pandemic</h1> -->
+                    <h1 class="header-text text-hightlight">Webinar</h1>
+                    <h1 class="header-text">Optimizing<br> Diabetes care in<br> COVID 19 <br> pandemic</h1>
                 </div>
                 <div id="image-box">
-                    <!-- <img src="_img/login/Untitled-1.png" alt="" id="image-dr"> -->
+                    <img src="_img/login/Untitled-1.png" alt="" id="image-dr">
                 </div>
             </div>
             <div class="col-md-3">
                 <div id="date-box">
-                    <!-- <img src="_img/login/Registration Screen 1920 x 1080-01 (1).png" alt="" id="date-image"> -->
+                    <img src="_img/login/Registration Screen 1920 x 1080-01 (1).png" alt="" id="date-image">
                 </div>
             </div>
             <div class="col-md-3">
-                <!-- <div id="login-form-box">
+                <div id="login-form-box">
                     <div id="login-upper-stripe">
                         <p id="login-upper-stripe-text">
                             Registraion
@@ -52,10 +52,10 @@
                             Register
                         </button>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="container">
         <div class="row">
