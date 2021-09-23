@@ -42,7 +42,7 @@ body{
 }
 
 #login-form-box{
-    margin-top: 90px;
+    /* margin-top: 90px; */
     padding: 0px;
     width: 100%;
     background-color: white;
@@ -171,6 +171,7 @@ body{
 
 #live-text{
     font-size: 25px;
+    font-weight: 600;
 }
 
 #topic{
