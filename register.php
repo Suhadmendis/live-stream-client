@@ -60,7 +60,7 @@
     <div class="container">
         <div class="row">
             <div class="offset-md-1 col-md-10">
-                <img src="_img/novartis/registration/Registration-Screen-1920-x-1080-Top.png" alt="">
+                <img id="top-image" src="_img/novartis/registration/Registration-Screen-1920-x-1080-Top.png" alt="">
             </div>
         </div>
     </div>

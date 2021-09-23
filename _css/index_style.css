@@ -14,6 +14,9 @@ body{
     height: 335px !important;
 }
 
+#top-image{
+    width: 100%;
+}
 
 
 .footer-button__img-layer{
