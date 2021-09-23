@@ -140,7 +140,7 @@
     <br>
 
 <div id="bottom-image-area">
-<img id="bottom-image" src="_img/novartis/registration/Registration-Screen-1920-x-1080-Top.png" alt="">
+<img id="bottom-image" src="_img/novartis/registration/Registration-Screen-1920-x-1080-Baurs-Address.png" alt="">
 </div>
 
 <script>
