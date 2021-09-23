@@ -54,11 +54,46 @@
             </div>
         </div>
     </div>
-    <br><br><br><br><br><br><br><br>
 
     <div class="container">
         <div class="row">
-            <div class="col-md-4"></div>
+            <div class="col-md-6">
+                <div id="live-pallet">
+                    <p id="live-text">LIVE WEBINAR</p>
+                </div>
+                <p id="topic">
+                    ROLE OF IL-17 IN PSORIASIS & THERAPEUTIC POTENTIAL O SECUKINUMAB
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+
+                <p id="date">
+                    Sunday, 3rd October 2021
+
+                    07.00 pm - 08.00 pm
+                </p>
+
+
+            
+                <img src="_img/novartis/registration/Registration-Screen-1920-x-1080-Dr.png" alt="">
+
+                <p>Dr Laura Savage</p>
+                <p>MBChB, BSc (Hons), MRCP (UK), MRCP (Dermatology), PhD</p>
+                <p>Consultant Dermatologist, Leeds Centre for Dermatology,
+
+                    Chapel Allerton Hospital and Honorary Senior Lecturer,
+
+                    University of Leeds, UK</p>     
+
+
+
+            </div>
             <div class="col-md-4">
                 <div id="login-form-box">
                     <div id="login-upper-stripe"></div>
