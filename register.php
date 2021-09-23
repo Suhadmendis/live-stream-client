@@ -59,7 +59,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="offset-md-1 col-md-10">
+            <div class="offset-md-2 col-md-8">
                 <img id="top-image" src="_img/novartis/registration/Registration-Screen-1920-x-1080-Top.png" alt="">
             </div>
         </div>
@@ -73,7 +73,7 @@
                     <p id="live-text">LIVE WEBINAR</p>
                 </div>
                 <p id="topic">
-                    ROLE OF IL-17 IN PSORIASIS & THERAPEUTIC POTENTIAL O SECUKINUMAB
+                    ROLE OF IL-17 IN PSORIASIS & THERAPEUTIC POTENTIAL OF SECUKINUMAB
                 </p>
 
             </div>
