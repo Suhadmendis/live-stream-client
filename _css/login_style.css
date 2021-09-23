@@ -170,26 +170,26 @@ body{
 }
 
 #live-text{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
 }
 
 #topic{
     margin-top: 20px;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
 }
 
 #date{
-    font-size: 35px;
+    font-size: 27px;
     color: white;
     font-weight: 600;
 }
 
 
 #person-name{
-    font-size: 30px;
+    font-size: 22px;
     color: #953484;
     font-weight: 600;
     margin-bottom: 0px;
@@ -198,14 +198,14 @@ body{
 #person-position{
     font-style: italic;
     color: white;
-    font-size: 13px;
+    font-size: 12px;
     margin-bottom: 0px;
     font-weight: 200;
 }
 
 #person-des{
     color: white;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     margin-bottom: 0px;
 }
