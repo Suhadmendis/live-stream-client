@@ -60,7 +60,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <img src="" alt="">
+                <img src="_img/novartis/registration/Registration-Screen-1920-x-1080-Top.png" alt="">
             </div>
         </div>
     </div>
