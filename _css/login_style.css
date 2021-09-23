@@ -6,6 +6,11 @@ body{
     background-attachment: fixed;
 }
 
+#top-image{
+    width: 100%;
+}
+
+
 #heading-box{
     margin-top: 100px;
 }
