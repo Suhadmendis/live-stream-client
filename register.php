@@ -139,6 +139,10 @@
     <br>
     <br>
 
+<div id="bottom-image-area">
+<img id="bottom-image" src="_img/novartis/registration/Registration-Screen-1920-x-1080-Top.png" alt="">
+</div>
+
 <script>
     var elem = document.getElementById("speciality");
     elem.onkeyup = function (e) {

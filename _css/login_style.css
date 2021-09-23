@@ -209,3 +209,10 @@ body{
     font-weight: 600;
     margin-bottom: 0px;
 }
+
+
+#bottom-image-area{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
