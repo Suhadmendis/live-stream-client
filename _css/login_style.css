@@ -155,22 +155,42 @@ body{
 
 
 
-.live-pallet{
+#live-pallet{
+    border-radius: 25px 25px 0px 0px;
+    margin-top: 50px;
+    padding: 5px 30px 5px 30px;
     color: white;
-    width: 200px;
+    width: 300px;
+    height: 50px;
     text-align: center;
     background-color: #953484;
+
 }
 
-.live-text{
+#live-text{
+    font-size: 25px;
+}
+
+#topic{
+    color: white;
     font-size: 40px;
-
 }
 
-.topic{
-
+#date{
+    font-size: 35px;
+    color: white;
 }
 
-.date{
 
+#person-name{
+    font-size: 30px;
+    color: #953484;
+}
+
+#person-position{
+    font-size: 13px;
+}
+
+#person-des{
+    font-size: 13px;
 }

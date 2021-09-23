@@ -83,9 +83,9 @@
             
                 <img src="_img/novartis/registration/Registration-Screen-1920-x-1080-Dr.png" alt="">
 
-                <p>Dr Laura Savage</p>
-                <p>MBChB, BSc (Hons), MRCP (UK), MRCP (Dermatology), PhD</p>
-                <p>Consultant Dermatologist, Leeds Centre for Dermatology,
+                <p id="person-name">Dr Laura Savage</p>
+                <p id="person-position">MBChB, BSc (Hons), MRCP (UK), MRCP (Dermatology), PhD</p>
+                <p id="person-des">Consultant Dermatologist, Leeds Centre for Dermatology,
 
                     Chapel Allerton Hospital and Honorary Senior Lecturer,
 
