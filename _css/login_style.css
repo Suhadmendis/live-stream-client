@@ -174,19 +174,23 @@ body{
 }
 
 #topic{
+    margin-top: 20px;
     color: white;
     font-size: 40px;
+    font-weight: 800;
 }
 
 #date{
     font-size: 35px;
     color: white;
+    font-weight: 600;
 }
 
 
 #person-name{
     font-size: 30px;
     color: #953484;
+    font-weight: 600;
     margin-bottom: 0px;
 }
 
