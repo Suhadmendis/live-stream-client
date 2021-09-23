@@ -64,10 +64,26 @@
             </div>
         </div>
     </div>
-<br><br><br><br><br>
+
+    
     <div class="container">
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-6">
+                <div id="live-pallet">
+                    <p id="live-text">LIVE WEBINAR</p>
+                </div>
+                <p id="topic">
+                    ROLE OF IL-17 IN PSORIASIS & THERAPEUTIC POTENTIAL O SECUKINUMAB
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
 
                 <p id="date">
                     Sunday, 3rd October 2021
