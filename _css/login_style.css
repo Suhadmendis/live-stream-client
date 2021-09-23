@@ -4,6 +4,8 @@ body{
     background-size: cover;
     background-position: center bottom;
     background-attachment: fixed;
+
+    font-family: 'Montserrat', sans-serif;
 }
 
 #top-image{
@@ -185,12 +187,20 @@ body{
 #person-name{
     font-size: 30px;
     color: #953484;
+    margin-bottom: 0px;
 }
 
 #person-position{
+    font-style: italic;
+    color: white;
     font-size: 13px;
+    margin-bottom: 0px;
+    font-weight: 200;
 }
 
 #person-des{
-    font-size: 13px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
 }
