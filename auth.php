@@ -78,7 +78,7 @@
             <div class="col-md-5">
 
                 <p id="date">
-                    Sunday, 3rd October 2021
+                    Sunday, 3rd October 2021 <br>  
 
                     07.00 pm - 08.00 pm
                 </p>
