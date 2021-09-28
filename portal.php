@@ -34,6 +34,7 @@
                 <th>Mobile</th>
                 <th>Email</th>
                 <th>Speciality</th>
+                <th>Hospital</th>
                 
             </tr>
         </thead>
@@ -43,6 +44,7 @@
                 <th>Mobile</th>
                 <th>Email</th>
                 <th>Speciality</th>
+                <th>Hospital</th>
             </tr>
         </tfoot>
     </table>
