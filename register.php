@@ -123,6 +123,8 @@
                         <input type="text" id="email" class="login-input">
                         <p class="input-label">Speciality</p>
                         <input type="text" id="speciality" class="login-input">
+                        <p class="input-label">Hospital</p>
+                        <input type="text" id="extra_1" class="login-input">
 
                         <button id="info-button" onClick="register()">
                             Register
@@ -144,7 +146,7 @@
 </div>
 
 <script>
-    var elem = document.getElementById("speciality");
+    var elem = document.getElementById("extra_1");
     elem.onkeyup = function (e) {
         if (e.keyCode == 13) {
             register();

@@ -117,6 +117,7 @@ function register()
         url = url + "&mobile=" + document.getElementById('mobile').value;
         url = url + "&email=" + document.getElementById('email').value;
         url = url + "&speciality=" + document.getElementById('speciality').value;
+        url = url + "&extra_1=" + document.getElementById('extra_1').value;
         //alert(url);
         xmlHttp.onreadystatechange = CheckUsersReg;
         xmlHttp.open("GET", url, true);

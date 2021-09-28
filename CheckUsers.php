@@ -53,8 +53,8 @@ if ($Command == "register") {
         $conn->beginTransaction();
 
 
-           $sql = "Insert into registration(name, mobile, email, speciality)values
-                        ('" . $_GET['name'] . "','" . $_GET['mobile'] . "','" . $_GET['email'] . "','" . $_GET['speciality'] . "')";
+           $sql = "Insert into registration(name, mobile, email, speciality, extra_1)values
+                        ('" . $_GET['name'] . "','" . $_GET['mobile'] . "','" . $_GET['email'] . "','" . $_GET['speciality'] . "','" . $_GET['extra_1'] . "')";
             $result = $conn->query($sql);
 
             $action = "ok";
