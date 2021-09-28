@@ -241,7 +241,7 @@ function resultData()
                     data[0][index].mobile,
                     data[0][index].email,
                     data[0][index].speciality,
-                    data[0][index].extra_1
+                    
                 ] ).draw();
                 
             }
