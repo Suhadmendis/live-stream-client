@@ -1,218 +1,209 @@
-body{
-    background-image: url('../_img/novartis/registration/Registration-Screen-1920-x-1080\ \(1\).png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-    background-attachment: fixed;
+body {
+  background-image: url("../_img/novartis/registration/Registration-Screen-1920-x-1080\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
 
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-#top-image{
-    width: 100%;
+#top-image {
+  width: 100%;
 }
 
-
-#heading-box{
-    margin-top: 100px;
+#heading-box {
+  margin-top: 100px;
 }
 
-.header-text{
-    font-size: 50px;
-    font-weight: 600;
-    color: white;
-
+.header-text {
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
 }
 
-.text-hightlight{
-    color: #b1ba1f;
+.text-hightlight {
+  color: #b1ba1f;
 }
 
-#image-dr{
-    width: 100%;
+#image-dr {
+  width: 100%;
 }
 
-#date-box{
-    margin-top: 250px;
+#date-box {
+  margin-top: 250px;
 }
 
-#date-image{
-    margin-left: -100px;
-    width: 100%;
+#date-image {
+  margin-left: -100px;
+  width: 100%;
 }
 
-#login-form-box{
-    margin-top: -50px;
-    padding: 0px;
-    width: 100%;
-    background-color: white;
-    border-radius: 50px 0px 50px 0px;
+#login-form-box {
+  margin-top: -50px;
+  padding: 0px;
+  width: 100%;
+  background-color: white;
+  border-radius: 50px 0px 50px 0px;
 }
 
-#login-upper-stripe{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-    height: 50px;
-    background-color: #953484;
-    border-radius: 50px 0px 0px 0px;
+#login-upper-stripe {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 50px;
+  background-color: #953484;
+  border-radius: 50px 0px 0px 0px;
 
-    text-align: center;
+  text-align: center;
 }
 
-#login-upper-stripe-text{
-    font-size: 20px;
-    font-weight: 600;
+#login-upper-stripe-text {
+  font-size: 20px;
+  font-weight: 600;
 }
 
-#login-bottom{
-    padding: 30px;
-    width: 100%;
-    
+#login-bottom {
+  padding: 30px;
+  width: 100%;
 }
 
-.input-label{
-    margin: 0px;
-    margin-top: 10px;
-    font-size: 20px;
-    font-weight: 600;
-    color: black;
+.input-label {
+  margin: 0px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
 }
 
+.login-input {
+  width: 100%;
+  height: 35px;
+  padding-left: 20px;
+  background-color: #e8d2e4;
+  margin-top: 10px;
+  border: none;
+  border-radius: 30px;
 
-.login-input{
-    width: 100%;
-    height: 35px;
-    padding-left: 20px;
-    background-color: #e8d2e4;
-    margin-top: 10px;
-    border: none;
-    border-radius: 30px;
-
-    outline: none;
+  outline: none;
 }
 
-#info-button{
-    width: 80%;
-    margin-top: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: #953484;
-    border: none;
-    text-transform: uppercase;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 20px;
-    outline: none;
+#info-button {
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #953484;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 20px;
+  outline: none;
 }
 
-.display-box{
-    width: 100%;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
+.display-box {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
 
-    text-align: center;
+  text-align: center;
 }
 
-.display-head{
-    font-size: 22px;
-    font-weight: 600;
+.display-head {
+  font-size: 22px;
+  font-weight: 600;
 }
 
-.display-image-area{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.display-image-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.display-image{
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
+.display-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
-.display-info{
-    margin-top: 20px;
+.display-info {
+  margin-top: 20px;
 }
 
-.display-name{
-    font-size: 18px;
-    font-weight: 600;
+.display-name {
+  font-size: 18px;
+  font-weight: 600;
 }
 
-.display-des{
-    font-size: 15px;
+.display-des {
+  font-size: 15px;
 }
 
-
-
-
-
-
-
-#live-pallet{
-    border-radius: 25px 25px 0px 0px;
-    margin-top: 50px;
-    padding: 5px 30px 5px 30px;
-    color: white;
-    width: 300px;
-    height: 50px;
-    text-align: center;
-    background-color: #953484;
-
+#live-pallet {
+  border-radius: 25px 25px 0px 0px;
+  margin-top: 50px;
+  padding: 5px 30px 5px 30px;
+  color: white;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  background-color: #953484;
 }
 
-#live-text{
-    font-size: 20px;
-    font-weight: 600;
+#live-text {
+  font-size: 20px;
+  font-weight: 600;
 }
 
-#topic{
-    margin-top: 20px;
-    color: white;
-    font-size: 30px;
-    font-weight: 800;
+#topic {
+  margin-top: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
 }
 
-#date{
-    font-size: 25px;
-    color: white;
-    font-weight: 600;
+#date {
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
 }
 
-
-#person-name{
-    font-size: 22px;
-    color: #953484;
-    font-weight: 600;
-    margin-bottom: 0px;
+#person-name {
+  font-size: 22px;
+  color: #953484;
+  font-weight: 600;
+  margin-bottom: 0px;
 }
 
-#person-position{
-    font-style: italic;
-    color: white;
-    font-size: 12px;
-    margin-bottom: 0px;
-    font-weight: 200;
+#person-position {
+  font-style: italic;
+  color: white;
+  font-size: 12px;
+  margin-bottom: 0px;
+  font-weight: 200;
 }
 
-#person-des{
-    color: white;
-    font-size: 13px;
-    font-weight: 600;
-    margin-bottom: 0px;
+#person-des {
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 0px;
 }
 
-
-#bottom-image-area{
-    position: fixed;
-    bottom: 0;
-    right: 0;
+#bottom-image-area {
+  width: 400px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+#bottom-image {
+  width: 100%;
 }
