@@ -7,7 +7,7 @@
     <title>Tallees - Live Stream</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="_css/login_style.css">
+    <link rel="stylesheet" href="_css/login_style.css?v=0000000002">
     <!-- <link rel="stylesheet" href="_css/reg_style.css"> -->
     <script src="js/user.js"></script>
 
