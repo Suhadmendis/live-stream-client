@@ -127,7 +127,7 @@
 
 
 <div id="bottom-image-area">
-<img id="bottom-image" src="_img/novartis/registration/Registration-Screen-1920-x-1080-Baurs-Address.png?v=0000000001" alt="">
+<img id="bottom-image" src="_img/novartis/registration/Registration-Screen-1920-x-1080-Baurs-Address1.png?v=0000000001" alt="">
 </div>
 
 
