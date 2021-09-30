@@ -37,18 +37,18 @@ if (isset($_COOKIE[$cookie_name])) {
                 <!-- <h1 id="company-name">Tallees Advertising</h1> -->
                 <div class="col-md-2">
                     <div class="side-box">
-                        <!-- <img src="_img/staircase/tallees003/Sanofi 3D Render image Pillar2.png" class="side-box-image" alt=""> -->
+                        <!-- <img src="_img/staircase/tallees003/Sanofi 3D Render image Pillar2.png?v=0000000001" class="side-box-image" alt=""> -->
                         <div class="branding-logo-area" id="branding_1_1">
-                            <img class="branding-logo-images" src="_img/novartis/platform/Side Pillars-01-upper.jpg" alt="">
+                            <img class="branding-logo-images" src="_img/novartis/platform/Side Pillars-01-upper.jpg?v=0000000001" alt="">
                         </div>
                         <div class="branding-logo-area" id="branding_1_2">
-                            <img class="branding-logo-images" src="_img/novartis/platform/Side Pillars-01-center.jpg" alt="">
+                            <img class="branding-logo-images" src="_img/novartis/platform/Side Pillars-01-center.jpg?v=0000000001" alt="">
                         </div>
                         <div class="branding-logo-area" id="branding_1_3">
-                            <!-- <img class="branding-logo-images" src="_img/staircase/tallees004/pilwave.png" alt=""> -->
+                            <!-- <img class="branding-logo-images" src="_img/staircase/tallees004/pilwave.png?v=0000000001" alt=""> -->
                         </div>
                         <div class="branding-logo-area" id="branding_1_4">
-                            <img class="branding-logo-images-bottom" src="_img/novartis/platform/Side Pillars-01-bottom.jpg" alt="">
+                            <img class="branding-logo-images-bottom" src="_img/novartis/platform/Side Pillars-01-bottom.jpg?v=0000000001" alt="">
                         </div>
                     </div>
                 </div>
@@ -59,18 +59,18 @@ if (isset($_COOKIE[$cookie_name])) {
                 </div>
                 <div class="col-md-2">
                     <div class="side-box">
-                        <!-- <img src="_img/staircase/tallees003/Sanofi 3D Render image Pillar1.png" class="side-box-image" alt=""> -->
+                        <!-- <img src="_img/staircase/tallees003/Sanofi 3D Render image Pillar1.png?v=0000000001" class="side-box-image" alt=""> -->
                         <div class="branding-logo-area" id="branding_2_1">
-                            <img class="branding-logo-images" src="_img/novartis/platform/Side Pillars-01-upper.jpg" alt="">
+                            <img class="branding-logo-images" src="_img/novartis/platform/Side Pillars-01-upper.jpg?v=0000000001" alt="">
                         </div>
                         <div class="branding-logo-area" id="branding_2_2">
-                        <img class="branding-logo-images" src="_img/novartis/platform/Side Pillars-02-center.jpg" alt="">
+                        <img class="branding-logo-images" src="_img/novartis/platform/Side Pillars-02-center.jpg?v=0000000001" alt="">
                         </div>
                         <div class="branding-logo-area" id="branding_2_3">
-                            <!-- <img class="branding-logo-images" src="_img/staircase/tallees004/pilwave.png" alt=""> -->
+                            <!-- <img class="branding-logo-images" src="_img/staircase/tallees004/pilwave.png?v=0000000001" alt=""> -->
                         </div>
                         <div class="branding-logo-area" id="branding_2_4">
-                            <!-- <img class="branding-logo-images" src="_img/staircase/tallees004/logo002.png" alt=""> -->
+                            <!-- <img class="branding-logo-images" src="_img/staircase/tallees004/logo002.png?v=0000000001" alt=""> -->
                         </div>
                     </div>
                 </div>
@@ -78,13 +78,13 @@ if (isset($_COOKIE[$cookie_name])) {
 
             <div class="row" id="stage-platform">
                 <!-- <div class="col-md-2">
-                    <img class="staircase-images" src="_img/staircase/staircase.png" alt="">
+                    <img class="staircase-images" src="_img/staircase/staircase.png?v=0000000001" alt="">
                 </div> -->
                 <div class="col-md-12">
-                    <img class="stage-images" src="_img/novartis/platform/3D-Render-image-Bottom.png" alt="">
+                    <img class="stage-images" src="_img/novartis/platform/3D-Render-image-Bottom.png?v=0000000001" alt="">
                 </div>
                 <!-- <div class="col-md-2">
-                    <img class="staircase-images" src="_img/staircase/staircase.png" alt="">
+                    <img class="staircase-images" src="_img/staircase/staircase.png?v=0000000001" alt="">
                 </div> -->
             </div>
 

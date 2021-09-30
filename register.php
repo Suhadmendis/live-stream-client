@@ -22,12 +22,12 @@
                     <h1 class="header-text">Optimizing<br> Diabetes care in<br> COVID 19 <br> pandemic</h1>
                 </div>
                 <div id="image-box">
-                    <img src="_img/login/Untitled-1.png" alt="" id="image-dr">
+                    <img src="_img/login/Untitled-1.png?v=0000000001" alt="" id="image-dr">
                 </div>
             </div>
             <div class="col-md-3">
                 <div id="date-box">
-                    <img src="_img/login/Registration Screen 1920 x 1080-01 (1).png" alt="" id="date-image">
+                    <img src="_img/login/Registration Screen 1920 x 1080-01 (1).png?v=0000000001" alt="" id="date-image">
                 </div>
             </div>
             <div class="col-md-3">
@@ -60,7 +60,7 @@
     <div class="container">
         <div class="row">
             <div class="offset-md-2 col-md-8">
-                <img id="top-image" src="_img/novartis/registration/Registration-Screen-1920-x-1080-Top.png" alt="">
+                <img id="top-image" src="_img/novartis/registration/Registration-Screen-1920-x-1080-Top.png?v=0000000001" alt="">
             </div>
         </div>
     </div>
@@ -93,7 +93,7 @@
 
 
 
-                <img src="_img/novartis/registration/Registration-Screen-1920-x-1080-Dr.png" alt="">
+                <img src="_img/novartis/registration/Registration-Screen-1920-x-1080-Dr.png?v=0000000001" alt="">
 
                 <p id="person-name">Dr Laura Savage</p>
                 <p id="person-position">MBChB, BSc (Hons), MRCP (UK), MRCP (Dermatology), PhD</p>
@@ -148,7 +148,7 @@
     <br>
 
 <div id="bottom-image-area">
-<img id="bottom-image" src="_img/novartis/registration/Registration-Screen-1920-x-1080-Baurs-Address.png" alt="">
+<img id="bottom-image" src="_img/novartis/registration/Registration-Screen-1920-x-1080-Baurs-Address.png?v=0000000001" alt="">
 </div>
 
 <script>
