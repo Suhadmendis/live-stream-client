@@ -14,72 +14,6 @@
 </head>
 <body>
     
-    <!-- <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div id="heading-box">
-                    <h1 class="header-text text-hightlight">Webinar</h1>
-                    <h1 class="header-text">Optimizing<br> Diabetes care in<br> COVID 19 <br> pandemic</h1>
-                </div>
-                <div id="image-box">
-                    <img src="_img/login/Untitled-1.png?v=0000000001" alt="" id="image-dr">
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div id="date-box">
-                    <img src="_img/login/Registration Screen 1920 x 1080-01 (1).png?v=0000000001" alt="" id="date-image">
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div id="login-form-box">
-                    <div id="login-upper-stripe">
-                        <p id="login-upper-stripe-text">
-                            Registraion
-                        </p>
-                    </div>
-                    <div id="login-bottom">
-                    
-                    <p class="input-label">Name</p>
-                        <input type="text" id="name" class="login-input">
-                        <p class="input-label">Mobile</p>
-                        <input type="text" id="mobile" class="login-input">
-                        <p class="input-label">E-mail</p>
-                        <input type="text" id="email" class="login-input">
-                        <p class="input-label">Speciality</p>
-                        <input type="text" id="speciality" class="login-input">
-
-                        <button id="info-button" onClick="register()">
-                            Register
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <div class="container">
-        <div class="row">
-            <div class="offset-md-2 col-md-8">
-                <img id="top-image" src="_img/novartis/registration/Registration-Screen-1920-x-1080-Top.png?v=0000000001" alt="">
-            </div>
-        </div>
-    </div>
-
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div id="live-pallet">
-                    <p id="live-text">LIVE WEBINAR</p>
-                </div>
-                <p id="topic">
-                    ROLE OF IL-17 IN PSORIASIS & THERAPEUTIC POTENTIAL OF SECUKINUMAB
-                </p>
-
-            </div>
-        </div>
-    </div>
-
 
     <div class="container">
         <div class="row">
@@ -87,7 +21,7 @@
 
                 <p id="date">
                     Sunday, 3rd October 2021
-<br>
+                    <br>
                     07.00 pm - 08.00 pm
                 </p>
 

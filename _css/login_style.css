@@ -5,38 +5,9 @@ body {
   background-position: center bottom;
   background-attachment: fixed;
 
+  background-color: black;
+
   font-family: "Montserrat", sans-serif;
-}
-
-#top-image {
-  width: 100%;
-}
-
-#heading-box {
-  margin-top: 100px;
-}
-
-.header-text {
-  font-size: 50px;
-  font-weight: 600;
-  color: white;
-}
-
-.text-hightlight {
-  color: #b1ba1f;
-}
-
-#image-dr {
-  width: 100%;
-}
-
-#date-box {
-  margin-top: 250px;
-}
-
-#date-image {
-  margin-left: -100px;
-  width: 100%;
 }
 
 #login-form-box {
@@ -105,105 +76,4 @@ body {
   font-weight: 600;
   border-radius: 20px;
   outline: none;
-}
-
-.display-box {
-  width: 100%;
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-
-  text-align: center;
-}
-
-.display-head {
-  font-size: 22px;
-  font-weight: 600;
-}
-
-.display-image-area {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.display-image {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.display-info {
-  margin-top: 20px;
-}
-
-.display-name {
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.display-des {
-  font-size: 15px;
-}
-
-#live-pallet {
-  border-radius: 25px 25px 0px 0px;
-  margin-top: 50px;
-  padding: 5px 30px 5px 30px;
-  color: white;
-  width: 300px;
-  height: 50px;
-  text-align: center;
-  background-color: #953484;
-}
-
-#live-text {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-#topic {
-  margin-top: 20px;
-  color: white;
-  font-size: 30px;
-  font-weight: 800;
-}
-
-#date {
-  font-size: 25px;
-  color: white;
-  font-weight: 600;
-}
-
-#person-name {
-  font-size: 22px;
-  color: #953484;
-  font-weight: 600;
-  margin-bottom: 0px;
-}
-
-#person-position {
-  font-style: italic;
-  color: white;
-  font-size: 12px;
-  margin-bottom: 0px;
-  font-weight: 200;
-}
-
-#person-des {
-  color: white;
-  font-size: 13px;
-  font-weight: 600;
-  margin-bottom: 0px;
-}
-
-#bottom-image-area {
-  width: 400px;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-}
-#bottom-image {
-  width: 100%;
 }
