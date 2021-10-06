@@ -17,9 +17,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-9">
-                
+                <div class="banner-box-outer">
+                    <div class="banner-box-inner">
+                        <br><br><br><br><br><br>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3">  
+                <br><br><br>
                 <div class="input-box-outer">
                     <div class="input-box-inner">
                         <p class="input-label">Name</p>
