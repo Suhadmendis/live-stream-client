@@ -5,34 +5,20 @@ body {
   background-position: center bottom;
   background-attachment: fixed;
 
-  background-color: black;
-  color: white;
-
   font-family: "Montserrat", sans-serif;
 }
 
-#login-form-box {
-  margin-top: -50px;
-  padding: 0px;
+.input-box-outer {
   width: 100%;
+  height: 1000%;
+  padding: 10px;
   background-color: white;
-  border-radius: 50px 0px 50px 0px;
 }
 
-#login-upper-stripe {
-  padding-top: 10px;
-  padding-bottom: 10px;
+.input-box-inner {
   width: 100%;
-  height: 50px;
-  background-color: #953484;
-  border-radius: 50px 0px 0px 0px;
-
-  text-align: center;
-}
-
-#login-upper-stripe-text {
-  font-size: 20px;
-  font-weight: 600;
+  height: 1000%;
+  background-color: red;
 }
 
 #login-bottom {
@@ -77,4 +63,14 @@ body {
   font-weight: 600;
   border-radius: 20px;
   outline: none;
+}
+
+#bottom-image-area {
+  width: 400px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+#bottom-image {
+  width: 100%;
 }
