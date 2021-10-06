@@ -14,6 +14,8 @@
 </head>
 <body>
     
+    <br><br><br><br><br><br><br>
+
     <div class="container">
         <div class="row">
             <div class="col-md-9">
@@ -22,7 +24,7 @@
                         <br><br><br><br><br><br>
                     </div>
                 </div>
-
+                <br>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="image-box">
