@@ -14,49 +14,37 @@
 </head>
 <body>
     
-
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-
+            <div class="col-md-9">
+                
             </div>
-            <div class="col-md-4">
-                <div id="login-form-box">
-                    <div id="login-upper-stripe">
-                        <!-- <p id="login-upper-stripe-text">
-                            Registraion
-                        </p> -->
-                    </div>
-                    <div id="login-bottom">
-                    
-                    <p class="input-label">Name</p>
-                        <input type="text" id="name" class="login-input">
-                        <p class="input-label">Mobile</p>
-                        <input type="text" id="mobile" class="login-input">
-                        <p class="input-label">E-mail</p>
-                        <input type="text" id="email" class="login-input">
-                        <p class="input-label">Speciality</p>
-                        <input type="text" id="speciality" class="login-input">
-                        <p class="input-label">Hospital</p>
-                        <input type="text" id="extra_1" class="login-input">
-
-                        <button id="info-button" onClick="register()">
-                            Register
-                        </button>
+            <div class="col-md-3">
+                <div class="input-box-outer">
+                    <div class="input-box-inner">
+                        
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                
             </div>
         </div>
     </div>
 
 
+    <p class="input-label">Name</p>
+    <input type="text" id="name" class="login-input">
+    <p class="input-label">Mobile</p>
+    <input type="text" id="mobile" class="login-input">
+    <p class="input-label">E-mail</p>
+    <input type="text" id="email" class="login-input">
+    <p class="input-label">Speciality</p>
+    <input type="text" id="speciality" class="login-input">
+    <p class="input-label">Hospital</p>
+    <input type="text" id="extra_1" class="login-input">
 
-    <br>
-    <br>
-    <br>
+    <button id="info-button" onClick="register()">
+        Register
+    </button>
+
 
 
 <div id="bottom-image-area">
