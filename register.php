@@ -22,6 +22,25 @@
                         <br><br><br><br><br><br>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="image-box">
+
+                        </div>
+                        <div class="position-label">
+                            <p>fnsod</p>
+                        </div>
+                        <p>fnsod</p>
+                        <p>fnsod</p>
+                        <p>fnsod</p>
+                        <p>fnsod</p>
+                    </div>
+                    <div class="col-md-4">
+
+                    </div>
+                </div>
+
             </div>
             <div class="col-md-3">  
                 <br><br><br>
