@@ -22,7 +22,20 @@
             <div class="col-md-3">
                 <div class="input-box-outer">
                     <div class="input-box-inner">
-                        
+                        <p class="input-label">Name</p>
+                        <input type="text" id="name" class="login-input">
+                        <p class="input-label">Mobile</p>
+                        <input type="text" id="mobile" class="login-input">
+                        <p class="input-label">E-mail</p>
+                        <input type="text" id="email" class="login-input">
+                        <p class="input-label">Speciality</p>
+                        <input type="text" id="speciality" class="login-input">
+                        <p class="input-label">Hospital</p>
+                        <input type="text" id="extra_1" class="login-input">
+
+                        <button id="info-button" onClick="register()">
+                            Register
+                        </button>
                     </div>
                 </div>
             </div>
@@ -30,20 +43,7 @@
     </div>
 
 
-    <p class="input-label">Name</p>
-    <input type="text" id="name" class="login-input">
-    <p class="input-label">Mobile</p>
-    <input type="text" id="mobile" class="login-input">
-    <p class="input-label">E-mail</p>
-    <input type="text" id="email" class="login-input">
-    <p class="input-label">Speciality</p>
-    <input type="text" id="speciality" class="login-input">
-    <p class="input-label">Hospital</p>
-    <input type="text" id="extra_1" class="login-input">
-
-    <button id="info-button" onClick="register()">
-        Register
-    </button>
+    
 
 
 
