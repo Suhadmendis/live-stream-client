@@ -18,7 +18,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                
+
             </div>
             <div class="col-md-4">
                 <div id="login-form-box">
@@ -55,11 +55,7 @@
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
 
 <div id="bottom-image-area">
 <img id="bottom-image" src="_img/novartis/registration/Registration-Screen-1920-x-1080-Baurs-Address1.png?v=0000000001" alt="">
