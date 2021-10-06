@@ -6,6 +6,8 @@ body {
   background-attachment: fixed;
 
   font-family: "Montserrat", sans-serif;
+
+  background-color: black;
 }
 
 .input-box-outer {
