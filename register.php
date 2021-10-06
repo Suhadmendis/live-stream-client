@@ -18,27 +18,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-
-                <p id="date">
-                    Sunday, 3rd October 2021
-                    <br>
-                    07.00 pm - 08.00 pm
-                </p>
-
-
-
-                <img src="_img/novartis/registration/Registration-Screen-1920-x-1080-Dr.png?v=0000000001" alt="">
-
-                <p id="person-name">Dr Laura Savage</p>
-                <p id="person-position">MBChB, BSc (Hons), MRCP (UK), MRCP (Dermatology), PhD</p>
-                <p id="person-des">Consultant Dermatologist, Leeds Centre for Dermatology,  <br>
-
-                    Chapel Allerton Hospital and Honorary Senior Lecturer, <br>
-
-                    University of Leeds, UK</p>     
-
-
-
+                
             </div>
             <div class="col-md-4">
                 <div id="login-form-box">
