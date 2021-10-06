@@ -31,7 +31,7 @@
 
                         </div>
                         <div class="position-label">
-                            <p>fnsod</p>
+                            <p>ffffffff</p>
                         </div>
                         <p>fnsod</p>
                         <p>fnsod</p>
@@ -39,7 +39,16 @@
                         <p>fnsod</p>
                     </div>
                     <div class="col-md-4">
+                        <div class="image-box">
 
+                        </div>
+                        <div class="position-label">
+                            <p>ffffffff</p>
+                        </div>
+                        <p>fnsod</p>
+                        <p>fnsod</p>
+                        <p>fnsod</p>
+                        <p>fnsod</p>
                     </div>
                 </div>
 
