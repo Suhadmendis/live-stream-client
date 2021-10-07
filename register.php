@@ -56,7 +56,7 @@
                             <img class="dr-image" src="_img/Auth/Doctors-02.png" alt="">
                         </div>
                         <div class="position-label">
-                            <p>SPEAKER - LOCAL FACULTY</p>
+                            <p class="position-text">SPEAKER - LOCAL FACULTY</p>
                         </div>
                         
                         <p>Dr. Dilruwani Aryasingha</p>

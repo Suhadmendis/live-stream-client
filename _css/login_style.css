@@ -36,6 +36,10 @@ body {
   color: white;
 }
 
+.position-text {
+  font-size: 15px;
+}
+
 .input-box-outer {
   width: 100%;
   padding: 5px;
