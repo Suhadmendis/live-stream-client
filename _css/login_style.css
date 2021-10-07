@@ -22,6 +22,19 @@ body {
   background-image: linear-gradient(to right, #153846, #8b9da4);
 }
 
+.banner-top-text {
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.banner-top-text {
+  font-size: 35px;
+}
+
+.banner-top-text {
+  font-size: 25px;
+}
+
 .image-box {
   width: 100%;
 }
