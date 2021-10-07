@@ -85,10 +85,10 @@
                         <input type="text" id="txtUserName" class="login-input">
                         <!-- <p class="input-label">Mobile</p>
                         <input type="text" id="txtPassword" class="login-input"> -->
-<!-- 
+
                         <button id="info-button" onClick="IsValiedData()">
                             Sign in
-                        </button> -->
+                        </button>
                     </div>
                 </div>
             </div>
