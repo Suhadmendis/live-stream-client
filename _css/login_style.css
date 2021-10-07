@@ -52,8 +52,9 @@ body {
   width: 100%;
 }
 
-.dr-image {
+.dr-name {
   font-weight: 600;
+  color: #2f5d70;
 }
 .position-label {
   text-align: center;

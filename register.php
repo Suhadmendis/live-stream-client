@@ -70,7 +70,7 @@
                         </div>
                         
                         <p class="dr-name">Dr. Dilruwani Aryasingha</p>
-                        <p class="dr-des-text">(MBBS MD.FRCS)</p>
+                        <p class="dr-des-text"><i>(MBBS MD.FRCS)</i></p>
                         <p class="dr-des-text">Consultant Ophthalmologist Golden Key Eye and ENT Hospital, Rajagiriya</p>
                     </div>
                 </div>
