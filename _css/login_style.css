@@ -10,7 +10,7 @@ body {
 
 .banner-box-outer {
   margin-left: -20px;
-  width: 100%;
+  width: 80%;
   padding: 5px;
   background-color: white;
 }
@@ -32,10 +32,12 @@ body {
 .banner-mid-text {
   font-size: 45px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .banner-bottom-text {
-  font-size: 25px;
+  font-size: 35px;
+  margin-bottom: 5px;
 }
 
 .image-box {
