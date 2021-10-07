@@ -43,12 +43,12 @@
                             <p>KEY NOTE SPEAKER</p>
                         </div>
 
-                        <p>A/Prof. Tim Roberts</p>
-                        <p>Clinical Associate Professor of Ophthalmology.</p>
-                        <p>The University of Sydney Consultant Ophthalmic Surgeon,</p>
-                        <p>Royal North Shore Hospital</p>
-                        <p>Medical Director,</p>
-                        <p>Vision Eye Institute - Australia.</p>
+                        <p class="dr-name">A/Prof. Tim Roberts</p>
+                        <p class="dr-des-text">Clinical Associate Professor of Ophthalmology.</p>
+                        <p class="dr-des-text">The University of Sydney Consultant Ophthalmic Surgeon,</p>
+                        <p class="dr-des-text">Royal North Shore Hospital</p>
+                        <p class="dr-des-text">Medical Director,</p>
+                        <p class="dr-des-text">Vision Eye Institute - Australia.</p>
 
                     </div>
                     <div class="col-md-3">
@@ -59,9 +59,9 @@
                             <p class="position-text">SPEAKER - LOCAL FACULTY</p>
                         </div>
                         
-                        <p>Dr. Dilruwani Aryasingha</p>
-                        <p>(MBBS MD.FRCS)</p>
-                        <p>Consultant Ophthalmologist Golden Key Eye and ENT Hospital, Rajagiriya</p>
+                        <p class="dr-name">Dr. Dilruwani Aryasingha</p>
+                        <p class="dr-des-text">(MBBS MD.FRCS)</p>
+                        <p class="dr-des-text">Consultant Ophthalmologist Golden Key Eye and ENT Hospital, Rajagiriya</p>
                     </div>
                 </div>
 
