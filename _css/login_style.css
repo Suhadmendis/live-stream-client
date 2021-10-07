@@ -1,15 +1,11 @@
 body {
-  background-image: url("../_img/novartis/registration/Registration-Screen-1920-x-1080\ \(1\).png");
+  background-image: url("../_img/Auth/Background-01.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
   background-attachment: fixed;
 
   font-family: "Montserrat", sans-serif;
-
-  background-color: #953484;
-
-  color: white;
 }
 
 .banner-box-outer {
