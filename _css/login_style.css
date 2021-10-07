@@ -10,7 +10,7 @@ body {
 
 .banner-box-outer {
   margin-left: -20px;
-  width: 50%;
+  width: 70%;
   padding: 5px;
   background-color: white;
 }
@@ -53,8 +53,11 @@ body {
 }
 
 .dr-name {
+  font-size: 18px;
   font-weight: 600;
   color: #2f5d70;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .position-label {
   text-align: center;
