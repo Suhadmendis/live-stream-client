@@ -40,6 +40,10 @@ body {
   font-size: 15px;
 }
 
+.dr-des-text {
+  margin: 0px;
+}
+
 .input-box-outer {
   width: 100%;
   padding: 5px;
