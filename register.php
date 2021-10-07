@@ -20,7 +20,9 @@
 </head>
 <body>
     
-    <br><br><br><br>
+    <div id="top-image">
+        <img src="_img/Auth/top.png" alt="">
+    </div>
 
     <div class="container-fluid">
         <div class="row">
@@ -102,7 +104,7 @@
 
 
 <div id="bottom-image-area">
-<img id="bottom-image" src="_img/novartis/registration/Registration-Screen-1920-x-1080-Baurs-Address1.png?v=0000000001" alt="">
+<img id="bottom-image" src="_img/Auth/bottom.png" alt="">
 </div>
 
 <script>
