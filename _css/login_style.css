@@ -10,7 +10,7 @@ body {
 
 .banner-box-outer {
   margin-left: -20px;
-  width: 70%;
+  width: 50%;
   padding: 5px;
   background-color: white;
 }
@@ -114,7 +114,7 @@ body {
   margin-top: 20px;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: #953484;
+  background-color: #153846;
   border: none;
   text-transform: uppercase;
   color: white;
@@ -129,7 +129,7 @@ body {
 }
 
 #bottom-image-area {
-  width: 400px;
+  width: 250px;
   position: fixed;
   bottom: 0;
   right: 0;
