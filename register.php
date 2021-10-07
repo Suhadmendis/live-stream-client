@@ -28,7 +28,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="image-box">
-
+                            <img class="dr-image" src="_img/Auth/Doctors-01.png" alt="">
                         </div>
                         <div class="position-label">
                             <p>ffffffff</p>
@@ -53,7 +53,7 @@
                 </div>
 
             </div>
-            <div class="col-md-2">  
+            <div class="col-md-3">  
                 <br><br><br>
                 <div class="input-box-outer">
                     <div class="input-box-inner">

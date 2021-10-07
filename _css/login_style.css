@@ -22,9 +22,11 @@ body {
 }
 
 .image-box {
-  width: 200px;
-  height: 200px;
-  background-color: red;
+  width: 100%;
+}
+
+.dr-image {
+  width: 100px;
 }
 
 .position-label {
