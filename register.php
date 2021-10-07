@@ -14,14 +14,23 @@
 </head>
 <body>
     
-    <br><br><br><br><br><br><br>
+    <br><br><br><br>
 
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8">
                 <div class="banner-box-outer">
                     <div class="banner-box-inner">
-                        <br><br><br><br><br><br>
+                        
+                        <p class="banner-top-text">WEBINAR</p>
+
+                        <p class="banner-mid-text">RECENT ADVANCEMENTS </p>
+                        <p class="banner-mid-text">IN THE MANAGEMENT </p>
+                        <p class="banner-mid-text">OF GLAUCOMA</p>
+
+                        <p class="banner-bottom-text">Sunday, 24th October 2021</p>
+                        <p class="banner-bottom-text">9.00 am - 10.15 am</p>
+
                     </div>
                 </div>
                 <br>
@@ -31,24 +40,28 @@
                             <img class="dr-image" src="_img/Auth/Doctors-01.png" alt="">
                         </div>
                         <div class="position-label">
-                            <p>ffffffff</p>
+                            <p>KEY NOTE SPEAKER</p>
                         </div>
-                        <p>fnsod</p>
-                        <p>fnsod</p>
-                        <p>fnsod</p>
-                        <p>fnsod</p>
+
+                        <p>A/Prof. Tim Roberts</p>
+                        <p>Clinical Associate Professor of Ophthalmology.</p>
+                        <p>The University of Sydney Consultant Ophthalmic Surgeon,</p>
+                        <p>Royal North Shore Hospital</p>
+                        <p>Medical Director,</p>
+                        <p>Vision Eye Institute - Australia.</p>
+
                     </div>
                     <div class="col-md-3">
                         <div class="image-box">
-
+                            <img class="dr-image" src="_img/Auth/Doctors-02.png" alt="">
                         </div>
                         <div class="position-label">
-                            <p>ffffffff</p>
+                            <p>SPEAKER - LOCAL FACULTY</p>
                         </div>
-                        <p>fnsod</p>
-                        <p>fnsod</p>
-                        <p>fnsod</p>
-                        <p>fnsod</p>
+                        
+                        <p>Dr. Dilruwani Aryasingha</p>
+                        <p>(MBBS MD.FRCS)</p>
+                        <p>Consultant Ophthalmologist Golden Key Eye and ENT Hospital, Rajagiriya</p>
                     </div>
                 </div>
 
