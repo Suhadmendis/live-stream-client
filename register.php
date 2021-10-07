@@ -26,7 +26,7 @@
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="image-box">
                             <img class="dr-image" src="_img/Auth/Doctors-01.png" alt="">
                         </div>
@@ -38,7 +38,7 @@
                         <p>fnsod</p>
                         <p>fnsod</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="image-box">
 
                         </div>
