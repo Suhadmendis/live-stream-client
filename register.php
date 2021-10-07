@@ -21,7 +21,7 @@
 <body>
     
     <div id="top-image">
-        <img src="_img/Auth/top.png" alt="">
+        <img src="_img/Auth/top.png" style="width: 100%" alt="">
     </div>
 
     <div class="container-fluid">
