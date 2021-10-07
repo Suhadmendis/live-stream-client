@@ -10,125 +10,99 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="_css/login_style.css?v=0000000002">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
     <script src="js/user.js?v=0000000001"></script>
 
 </head>
 <body>
     
-    <!-- <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div id="heading-box">
-                    <h1 class="header-text text-hightlight">Webinar</h1>
-                    <h1 class="header-text">Optimizing<br> Diabetes care in<br> COVID 19 <br> pandemic</h1>
-                </div>
-                <div id="image-box">
-                    <img src="_img/login/Untitled-1.png?v=0000000001" alt="" id="image-dr">
-                </div>
-            </div>
-            <div class="col-md-3">
-                
-            </div>
-            <div class="col-md-3">
-                <div id="login-form-box">
-                    <div id="login-upper-stripe"></div>
-                    <div id="login-bottom">
-                    
-                        <p class="input-label">Name</p>
-                        <input type="text" id="txtUserName" class="login-input">
-                        <p class="input-label">Mobile</p>
-                        <input type="text" id="txtPassword" class="login-input">
 
+<div id="top-image">
+        <img src="_img/Auth/top.png" style="width: 100%" alt="">
+    </div>
+
+    <br>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="banner-box-outer">
+                    <div class="banner-box-inner">
+                        
+                        <p class="banner-top-text">WEBINAR</p>
+
+                        <p class="banner-mid-text">RECENT ADVANCEMENTS </p>
+                        <p class="banner-mid-text">IN THE MANAGEMENT </p>
+                        <p class="banner-mid-text">OF GLAUCOMA</p>
+
+                        <p class="banner-bottom-text">Sunday, 24th October 2021</p>
+                        <p class="banner-bottom-text">9.00 am - 10.15 am</p>
+
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="image-box">
+                            <img class="dr-image" src="_img/Auth/Doctors-01.png" alt="">
+                        </div>
+                        <div class="position-label">
+                            <p>KEY NOTE SPEAKER</p>
+                        </div>
+
+                        <p class="dr-name">A/Prof. Tim Roberts</p>
+                        <p class="dr-des-text">Clinical Associate Professor of Ophthalmology.</p>
+                        <p class="dr-des-text">The University of Sydney Consultant Ophthalmic Surgeon,</p>
+                        <p class="dr-des-text">Royal North Shore Hospital</p>
+                        <p class="dr-des-text">Medical Director,</p>
+                        <p class="dr-des-text">Vision Eye Institute - Australia.</p>
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="image-box">
+                            <img class="dr-image" src="_img/Auth/Doctors-02.png" alt="">
+                        </div>
+                        <div class="position-label">
+                            <p class="position-text">SPEAKER - LOCAL FACULTY</p>
+                        </div>
+                        
+                        <p class="dr-name">Dr. Dilruwani Aryasingha</p>
+                        <p class="dr-des-text"><i>(MBBS MD.FRCS)</i></p>
+                        <p class="dr-des-text">Consultant Ophthalmologist Golden Key Eye and ENT Hospital, Rajagiriya</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">  
+                <br><br><br>
+                <div class="input-box-outer">
+                    <div class="input-box-inner">
+                        <p class="input-label">Email</p>
+                        <input type="text" id="txtUserName" class="login-input">
+                        <!-- <p class="input-label">Mobile</p>
+                        <input type="text" id="txtPassword" class="login-input"> -->
+<!-- 
                         <button id="info-button" onClick="IsValiedData()">
                             Sign in
-                        </button>
+                        </button> -->
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
-
-
-    <div class="container">
-        <div class="row">
-            <div class="offset-md-2 col-md-8">
-                <img id="top-image" src="_img/novartis/registration/Registration-Screen-1920-x-1080-Top.png?v=0000000001" alt="">
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div id="live-pallet">
-                    <p id="live-text">LIVE WEBINAR</p>
-                </div>
-                <p id="topic">
-                    ROLE OF IL-17 IN PSORIASIS & THERAPEUTIC POTENTIAL OF SECUKINUMAB
-                </p>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5">
-
-                <p id="date">
-                    Sunday, 3rd October 2021 <br>  
-
-                    07.00 pm - 08.00 pm
-                </p>
-
-
-            
-                <img src="_img/novartis/registration/Registration-Screen-1920-x-1080-Dr.png?v=0000000001" alt="">
-
-                <p id="person-name">Dr Laura Savage</p>
-                <p id="person-position">MBChB, BSc (Hons), MRCP (UK), MRCP (Dermatology), PhD</p>
-                <p id="person-des">Consultant Dermatologist, Leeds Centre for Dermatology,  <br>
-
-                    Chapel Allerton Hospital and Honorary Senior Lecturer, <br>
-
-                    University of Leeds, UK</p>     
-
-
-
-            </div>
-            <div class="col-md-4">
-                <div id="login-form-box">
-                    <div id="login-upper-stripe"></div>
-                    <div id="login-bottom">
-                    
-                        <p class="input-label">Name</p>
-                        <input type="text" id="txtUserName" class="login-input">
-                        <p class="input-label">Mobile</p>
-                        <input type="text" id="txtPassword" class="login-input">
-
-                        <button id="info-button" onClick="IsValiedData()">
-                            Sign in
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3"></div>
-        </div>
     </div>
 
 
-    <br>
-    <br> <br>
-    <br> <br>
-    <br>
+    
 
 
 
 <div id="bottom-image-area">
-<img id="bottom-image" src="_img/novartis/registration/Registration-Screen-1920-x-1080-Baurs-Address1.png?v=0000000001" alt="">
+<img id="bottom-image" src="_img/Auth/bottom.png" alt="">
 </div>
+
+
 
 
 <script>

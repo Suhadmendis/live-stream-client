@@ -28,12 +28,12 @@ function IsValiedData()
     if (document.getElementById('txtUserName').value == "")
     {     
         document.getElementById("txtUserName").focus();
-        alert("Please Enter Name");
+        alert("Please Enter Email");
         return false;
-    } else if (document.getElementById('txtPassword').value == "") {
-        alert("Please Enter Mobile");
-        document.getElementById("txtPassword").focus();
-        return false;
+    // } else if (document.getElementById('txtPassword').value == "") {
+    //     alert("Please Enter Mobile");
+    //     document.getElementById("txtPassword").focus();
+    //     return false;
     } else {
         xmlHttp = GetXmlHttpObject();
         if (xmlHttp == null)
