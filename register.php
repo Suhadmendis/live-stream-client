@@ -25,7 +25,7 @@
     </div>
 
     <br>
-    
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8">
@@ -45,7 +45,7 @@
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <div class="image-box">
                             <img class="dr-image" src="_img/Auth/Doctors-01.png" alt="">
                         </div>
