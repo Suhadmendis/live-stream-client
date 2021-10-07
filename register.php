@@ -24,6 +24,8 @@
         <img src="_img/Auth/top.png" style="width: 100%" alt="">
     </div>
 
+    <br>
+    
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8">

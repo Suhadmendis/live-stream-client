@@ -27,17 +27,21 @@ body {
 .banner-top-text {
   font-size: 25px;
   font-weight: 200;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .banner-mid-text {
   font-size: 45px;
   font-weight: 700;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 
 .banner-bottom-text {
   font-size: 30px;
-  margin-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .image-box {
