@@ -89,10 +89,7 @@ function register()
         alert("Please Endter Name");
         document.getElementById("name").focus();
         return false;
-    } else if (document.getElementById('mobile').value == "") {
-        alert("Please Endter Mobile");
-        document.getElementById("mobile").focus();
-        return false;
+   
     } else if (document.getElementById('email').value == "") {
         alert("Please Endter email");
         document.getElementById("email").focus();

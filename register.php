@@ -80,11 +80,11 @@
                 <br><br><br>
                 <div class="input-box-outer">
                     <div class="input-box-inner">
-                        <p class="input-label">Name</p>
+                        <p class="input-label">Name*</p>
                         <input type="text" id="name" class="login-input">
                         <p class="input-label">Mobile</p>
                         <input type="text" id="mobile" class="login-input">
-                        <p class="input-label">E-mail</p>
+                        <p class="input-label">E-mail*</p>
                         <input type="text" id="email" class="login-input">
                         <p class="input-label">Speciality</p>
                         <input type="text" id="speciality" class="login-input">
@@ -94,6 +94,8 @@
                         <button id="info-button" onClick="register()">
                             Register
                         </button>
+
+                        <p>* mandatory</p>
                     </div>
                 </div>
             </div>
