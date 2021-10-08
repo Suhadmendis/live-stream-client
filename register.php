@@ -95,7 +95,7 @@
                             Register
                         </button>
 
-                        <p>* mandatory</p>
+                        <p style="color: white">* mandatory</p>
                     </div>
                 </div>
             </div>
