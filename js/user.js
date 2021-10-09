@@ -86,7 +86,7 @@ function register()
 
     if (document.getElementById('name').value == "")
     {     
-        alert("Please Endter Name");
+        alert("Please Enter Name");
         document.getElementById("name").focus();
         return false;
    
