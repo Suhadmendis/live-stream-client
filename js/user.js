@@ -94,10 +94,10 @@ function register()
         alert("Please Endter email");
         document.getElementById("email").focus();
         return false;
-    } else if (document.getElementById('speciality').value == "") {
-        alert("Please Endter Speciality");
-        document.getElementById("speciality").focus();
-        return false;
+    // } else if (document.getElementById('speciality').value == "") {
+    //     alert("Please Endter Speciality");
+    //     document.getElementById("speciality").focus();
+    //     return false;
     } else {
         xmlHttp = GetXmlHttpObject();
         if (xmlHttp == null)
