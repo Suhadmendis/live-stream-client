@@ -39,7 +39,7 @@ if (isset($_COOKIE[$cookie_name])) {
                     <div class="side-box">
                         <!-- <img src="_img/staircase/tallees003/Sanofi 3D Render image Pillar2.png?v=0000000001" class="side-box-image" alt=""> -->
                         <div class="branding-logo-area" id="branding_1_1">
-                            <img class="branding-logo-images" src="_img/novartis/platform/Side Pillars-01-upper.jpg?v=0000000001" alt="">
+                            <img class="branding-logo-images" src="_img/platform/left.png?v=0000000001" alt="">
                         </div>
                         <!-- <div class="branding-logo-area" id="branding_1_2">
                             <img class="branding-logo-images" src="_img/novartis/platform/Side Pillars-01-center.jpg?v=0000000001" alt="">
@@ -61,7 +61,7 @@ if (isset($_COOKIE[$cookie_name])) {
                     <div class="side-box">
                         <!-- <img src="_img/staircase/tallees003/Sanofi 3D Render image Pillar1.png?v=0000000001" class="side-box-image" alt=""> -->
                         <div class="branding-logo-area" id="branding_2_1">
-                            <img class="branding-logo-images" src="_img/novartis/platform/Side Pillars-01-upper.jpg?v=0000000001" alt="">
+                            <img class="branding-logo-images" src="_img/platform/right.png?v=0000000001" alt="">
                         </div>
                         <!-- <div class="branding-logo-area" id="branding_2_2"> -->
                         <!-- <img class="branding-logo-images" src="_img/novartis/platform/Side Pillars-02-center.jpg?v=0000000001" alt=""> -->
