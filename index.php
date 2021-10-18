@@ -41,15 +41,15 @@ if (isset($_COOKIE[$cookie_name])) {
                         <div class="branding-logo-area" id="branding_1_1">
                             <img class="branding-logo-images" src="_img/novartis/platform/Side Pillars-01-upper.jpg?v=0000000001" alt="">
                         </div>
-                        <div class="branding-logo-area" id="branding_1_2">
+                        <!-- <div class="branding-logo-area" id="branding_1_2">
                             <img class="branding-logo-images" src="_img/novartis/platform/Side Pillars-01-center.jpg?v=0000000001" alt="">
-                        </div>
-                        <div class="branding-logo-area" id="branding_1_3">
+                        </div> -->
+                        <!-- <div class="branding-logo-area" id="branding_1_3"> -->
                             <!-- <img class="branding-logo-images" src="_img/staircase/tallees004/pilwave.png?v=0000000001" alt=""> -->
-                        </div>
+                        <!-- </div>
                         <div class="branding-logo-area" id="branding_1_4">
                             <img class="branding-logo-images-bottom" src="_img/novartis/platform/Side Pillars-01-bottom.jpg?v=0000000001" alt="">
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-md-8">
@@ -63,15 +63,15 @@ if (isset($_COOKIE[$cookie_name])) {
                         <div class="branding-logo-area" id="branding_2_1">
                             <img class="branding-logo-images" src="_img/novartis/platform/Side Pillars-01-upper.jpg?v=0000000001" alt="">
                         </div>
-                        <div class="branding-logo-area" id="branding_2_2">
-                        <img class="branding-logo-images" src="_img/novartis/platform/Side Pillars-02-center.jpg?v=0000000001" alt="">
-                        </div>
-                        <div class="branding-logo-area" id="branding_2_3">
+                        <!-- <div class="branding-logo-area" id="branding_2_2"> -->
+                        <!-- <img class="branding-logo-images" src="_img/novartis/platform/Side Pillars-02-center.jpg?v=0000000001" alt=""> -->
+                        <!-- </div> -->
+                        <!-- <div class="branding-logo-area" id="branding_2_3"> -->
                             <!-- <img class="branding-logo-images" src="_img/staircase/tallees004/pilwave.png?v=0000000001" alt=""> -->
-                        </div>
-                        <div class="branding-logo-area" id="branding_2_4">
+                        <!-- </div> -->
+                        <!-- <div class="branding-logo-area" id="branding_2_4"> -->
                             <!-- <img class="branding-logo-images" src="_img/staircase/tallees004/logo002.png?v=0000000001" alt=""> -->
-                        </div>
+                        <!-- </div> -->
                     </div>
                 </div>
             </div>
@@ -81,7 +81,7 @@ if (isset($_COOKIE[$cookie_name])) {
                     <img class="staircase-images" src="_img/staircase/staircase.png?v=0000000001" alt="">
                 </div> -->
                 <div class="col-md-12">
-                    <img class="stage-images" src="_img/novartis/platform/3D-Render-image-Bottom.png?v=0000000001" alt="">
+                    <img class="stage-images" src="_img/plaform/bottom.png?v=0000000001" alt="">
                 </div>
                 <!-- <div class="col-md-2">
                     <img class="staircase-images" src="_img/staircase/staircase.png?v=0000000001" alt="">
