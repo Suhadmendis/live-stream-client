@@ -1,406 +1,375 @@
-body{
-    background-image: url('../_img/novartis/platform/3D-Render-image-Top.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-    background-attachment: fixed;
+body {
+  background-image: url("../_img/platform/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
 }
 
-.mini-layout-body{
-    margin: 15px auto auto !important;
+.mini-layout-body {
+  margin: 15px auto auto !important;
 }
 
-.align-middle{
-    height: 335px !important;
+.align-middle {
+  height: 335px !important;
 }
 
-
-
-.footer-button__img-layer{
-    display: none !important;
+.footer-button__img-layer {
+  display: none !important;
 }
 
-.footer-button__button-label{
-    display: none !important;
+.footer-button__button-label {
+  display: none !important;
 }
 
 @media (max-width: 4980px) {
-    #company-name{
-        text-align: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        color: white;
-    }
-    
-    #video-section{
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    
-    .side-box{
-        width: 100%;
-        height: 720px;
-        background-color: white;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    }
-    .side-box-image{
-        width: 100%;
-        object-fit: cover;
-    }
-    
-    .video-box{
-        /* margin-left: 50px;
-        margin-right: 50px; */
-        
-        height: 720px;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    }
-    
-    #video-iframe{
-        width: 100%;
-        height: 720px;
-    }
-    
-    .branding-logo-area{
-        width: 100%;
-        height: 180px;
-        position: relative;
-    }
-    
-    .branding-logo-images{
-        width: 100%;
-        position: absolute;
-        top: 0;
-    }
+  #company-name {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+  }
 
-    .branding-logo-images-bottom{
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-    }
-    
-    #branding_1_1 {
-        height: 134px;
-    }
-    
-    /* #branding_1_2{}
+  #video-section {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .side-box {
+    width: 100%;
+    height: 720px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+  .side-box-image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .video-box {
+    /* margin-left: 50px;
+        margin-right: 50px; */
+
+    height: 720px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+
+  #video-iframe {
+    width: 100%;
+    height: 720px;
+  }
+
+  .branding-logo-area {
+    width: 100%;
+    height: 180px;
+    position: relative;
+  }
+
+  .branding-logo-images {
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  .branding-logo-images-bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+
+  #branding_1_1 {
+    height: 134px;
+  }
+
+  /* #branding_1_2{}
     
     #branding_1_3{} */
-    
-    /* #branding_1_4{} */
 
+  /* #branding_1_4{} */
 
-    
-    
-    
-    #branding_2_1{
-        height: 134px;
-    }
-    
-    /* #branding_2_2{}
+  #branding_2_1 {
+    height: 134px;
+  }
+
+  /* #branding_2_2{}
     
     #branding_2_3{} */
-    
-    /* #branding_2_4{} */
-    
-    #stage-platform{
-     margin-top: 10px;   
-    }
 
-    .staircase-images{
-        margin-left: -93px;
-        width: 175%;
-    }
-    .stage-images{
-        /* position: absolute;
+  /* #branding_2_4{} */
+
+  #stage-platform {
+    margin-top: 10px;
+  }
+
+  .staircase-images {
+    margin-left: -93px;
+    width: 175%;
+  }
+  .stage-images {
+    /* position: absolute;
         bottom: 0;
         width: 86.8%; */
-        margin-left: -30px;
-        width: 103.6%;
-    }
+    margin-left: -30px;
+    width: 103.6%;
+  }
 }
-
 
 @media (max-width: 1980px) {
-    #company-name{
-        text-align: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        color: white;
-    }
-    
-    #video-section{
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    
-    .side-box{
-        width: 100%;
-        height: 720px;
-        background-color: white;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    }
-    .side-box-image{
-        width: 100%;
-        object-fit: cover;
-    }
-    
-    .video-box{
-        /* margin-left: 50px;
+  #company-name {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+  }
+
+  #video-section {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .side-box {
+    width: 100%;
+    height: 720px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+  .side-box-image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .video-box {
+    /* margin-left: 50px;
         margin-right: 50px; */
-        
-        height: 720px;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    }
-    
-    #video-iframe{
-        width: 100%;
-        height: 720px;
-    }
-    
-    .branding-logo-area{
-        width: 100%;
-        height: 180px;
-        position: relative;
-    }
-    
-    .branding-logo-images{
-        width: 100%;
-        position: absolute;
-        top: 0;
-    }
 
-    .branding-logo-images-bottom{
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-    }
-    
-    #branding_1_1 {
-        height: 134px;
-    }
-    
-    #branding_1_2{
-        background-color: #e1e6ea;
-    }
-    
-    /* #branding_1_3{
-        background-color: #e1e6ea;
-    } */
-    
-    /* #branding_1_4{} */
+    height: 720px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
 
+  #video-iframe {
+    width: 100%;
+    height: 720px;
+  }
 
-    
-    
-    
-    #branding_2_1{
-        height: 134px;
-    }
-    
-    #branding_1_2{
-        background-color: #e1e6ea;
-    }
-    
-    /* #branding_1_3{
+  .branding-logo-area {
+    width: 100%;
+    height: 180px;
+    position: relative;
+  }
+
+  .branding-logo-images {
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  .branding-logo-images-bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+
+  #branding_1_1 {
+    height: 134px;
+  }
+
+  #branding_1_2 {
+    background-color: #e1e6ea;
+  }
+
+  /* #branding_1_3{
         background-color: #e1e6ea;
     } */
-    
-    /* #branding_2_4{} */
-    
-    #stage-platform{
-     margin-top: 10px;   
-    }
 
-    .staircase-images{
-        margin-left: -93px;
-        width: 175%;
-    }
-    .stage-images{
-        /* position: absolute;
+  /* #branding_1_4{} */
+
+  #branding_2_1 {
+    height: 134px;
+  }
+
+  #branding_1_2 {
+    background-color: #e1e6ea;
+  }
+
+  /* #branding_1_3{
+        background-color: #e1e6ea;
+    } */
+
+  /* #branding_2_4{} */
+
+  #stage-platform {
+    margin-top: 10px;
+  }
+
+  .staircase-images {
+    margin-left: -93px;
+    width: 175%;
+  }
+  .stage-images {
+    /* position: absolute;
         bottom: 0;
         width: 86.8%; */
-        margin-left: -30px;
-        width: 103.6%;
-    }
+    margin-left: -30px;
+    width: 103.6%;
+  }
 }
 
-
-
 @media (max-width: 1400px) {
-    
-    #company-name{
-        text-align: center;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        color: white;
-    }
-    
-    #video-section{
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    
-    .side-box{
-        width: 100%;
-        height: 500px;
-        background-color: white;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    }
-    
-    .video-box{
-        /* margin-left: 50px;
+  #company-name {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+  }
+
+  #video-section {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .side-box {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+
+  .video-box {
+    /* margin-left: 50px;
         margin-right: 50px; */
-        
-        height: 500px;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    }
-    
-    #video-iframe{
-        width: 100%;
-        height: 500px;
-    }
-    
-    .branding-logo-area{
-        width: 100%;
-        height: 125px;
-        /* padding: 30px; */
-    }
-    
-    .branding-logo-images{
-        width: 100%;
-    }
-    
-    #branding_1_1 {
-        height: 100px;
-    }
-    
-    #branding_1_2{
-        background-color: #e1e6ea;
-    }
-    
-    /* #branding_1_3{
+
+    height: 500px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+
+  #video-iframe {
+    width: 100%;
+    height: 500px;
+  }
+
+  .branding-logo-area {
+    width: 100%;
+    height: 125px;
+    /* padding: 30px; */
+  }
+
+  .branding-logo-images {
+    width: 100%;
+  }
+
+  #branding_1_1 {
+    height: 100px;
+  }
+
+  #branding_1_2 {
+    background-color: #e1e6ea;
+  }
+
+  /* #branding_1_3{
         background-color: #e1e6ea;
     } */
-    
-    /* #branding_1_4{} */
 
+  /* #branding_1_4{} */
 
-    
-    
-    
-    #branding_2_1{
-        height: 100px;
-    }
-    
-    #branding_1_2{
-        background-color: #e1e6ea;
-    }
-    
-    /* #branding_1_3{
+  #branding_2_1 {
+    height: 100px;
+  }
+
+  #branding_1_2 {
+    background-color: #e1e6ea;
+  }
+
+  /* #branding_1_3{
         background-color: #e1e6ea;
     } */
-    
-    /* #branding_2_4{} */
-    
-    /* #stage-platform{
+
+  /* #branding_2_4{} */
+
+  /* #stage-platform{
         
     } */
 
-    .staircase-images{
-        margin-left: -63px;
-        width: 175%;
-    }
-    .stage-images{
-        margin-left: -40px;
-        width: 107%;
-    }
-    
+  .staircase-images {
+    margin-left: -63px;
+    width: 175%;
+  }
+  .stage-images {
+    margin-left: -40px;
+    width: 107%;
+  }
 }
 
 @media (max-width: 767px) {
-    #company-name{
-        text-align: center;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        color: white;
-    }
-    
-    #video-section{
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    
-    .side-box{
-        width: 100%;
-        height: 360px;
-        background-color: white;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  #company-name {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+  }
 
-        display: none;
-    }
-    
-    .video-box{
-        /* margin-left: 50px;
+  #video-section {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .side-box {
+    width: 100%;
+    height: 360px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+    display: none;
+  }
+
+  .video-box {
+    /* margin-left: 50px;
         margin-right: 50px; */
-        
-        height: 360px;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 
-        
-    }
-    
-    #video-iframe{
-        width: 100%;
-        height: 80vh;
-    }
-    
-    .branding-logo-area{
-        width: 100%;
-        height: 90px;
-        /* padding: 30px; */
-    }
-    
-    .branding-logo-images{
-        width: 100%;
-    }
-    
-    /* #branding_1_1{}
+    height: 360px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+
+  #video-iframe {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .branding-logo-area {
+    width: 100%;
+    height: 90px;
+    /* padding: 30px; */
+  }
+
+  .branding-logo-images {
+    width: 100%;
+  }
+
+  /* #branding_1_1{}
     
     #branding_1_2{}
     
     #branding_1_3{} */
-    
-    #branding_1_4{
-        /* background-color: rgb(178, 187, 30); */
-    }
-    
-    
-    
-    /* #branding_2_1{}
+
+  #branding_1_4 {
+    /* background-color: rgb(178, 187, 30); */
+  }
+
+  /* #branding_2_1{}
     
     #branding_2_2{}
     
     #branding_2_3{} */
-    
-    #branding_2_4{
-        /* background-color: rgb(178, 187, 30); */
-    }
 
-    
+  #branding_2_4 {
+    /* background-color: rgb(178, 187, 30); */
+  }
 
-    #stage-platform{
-        display: none;
-    }
+  #stage-platform {
+    display: none;
+  }
 
-    .staircase-images{
-        margin-left: -63px;
-        width: 175%;
-    }
-
-    
+  .staircase-images {
+    margin-left: -63px;
+    width: 175%;
+  }
 }
-
-
-
-

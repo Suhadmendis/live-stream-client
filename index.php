@@ -81,7 +81,7 @@ if (isset($_COOKIE[$cookie_name])) {
                     <img class="staircase-images" src="_img/staircase/staircase.png?v=0000000001" alt="">
                 </div> -->
                 <div class="col-md-12">
-                    <img class="stage-images" src="_img/plaform/bottom.png?v=0000000001" alt="">
+                    <img class="stage-images" src="_img/platform/bottom.png?v=0000000001" alt="">
                 </div>
                 <!-- <div class="col-md-2">
                     <img class="staircase-images" src="_img/staircase/staircase.png?v=0000000001" alt="">
