@@ -47,7 +47,7 @@ function IsValiedData()
         url = url + "?Command=" + "CheckUsers";
         url = url + "&UserName=" + document.getElementById('txtUserName').value;
         // url = url + "&Password=" + document.getElementById('txtPassword').value;
-        //alert(url);
+        alert(url);
         xmlHttp.onreadystatechange = CheckUsers;
         xmlHttp.open("GET", url, true);
         xmlHttp.send(null);
