@@ -108,12 +108,12 @@
 
 
 <script>
-    var elem = document.getElementById("txtPassword");
-    elem.onkeyup = function (e) {
-        if (e.keyCode == 13) {
-            IsValiedData();
-        }
-    }
+    // var elem = document.getElementById("txtPassword");
+    // elem.onkeyup = function (e) {
+    //     if (e.keyCode == 13) {
+    //         IsValiedData();
+    //     }
+    // }
 
 
 </script>
