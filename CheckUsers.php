@@ -18,8 +18,8 @@ if ($Command == "CheckUsers") {
         $conn->beginTransaction();
 
 
-           $sql = "Insert into user_mast(user_name, mobile)values
-                        ('" . $_GET['UserName'] . "','" . $_GET['Password'] . "')";
+           $sql = "Insert into user_mast(user_name)values
+                        ('" . $_GET['UserName'] . "')";
             $result = $conn->query($sql);
 
             $action = "ok";
