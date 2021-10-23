@@ -9,7 +9,7 @@ if (isset($_COOKIE[$cookie_name])) {
         
     // }
 }else{
-    // header('Location: ' . "auth.php");
+    header('Location: ' . "auth.php");
     exit();
 }
 ?> 
